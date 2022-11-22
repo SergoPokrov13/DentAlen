@@ -1,0 +1,494 @@
+@import url(../fonts/font.css);
+@import url(../blocks/root/root.css);
+@import url(../blocks/menu/menu.css);
+@import url(../blocks/menu/__block/menu__block.css);
+@import url(../blocks/menu/__links/menu__links.css);
+@import url(../blocks/menu/__item/menu__item.css);
+@import url(../blocks/menu/__link/menu__link.css);
+@import url(../blocks/menu/__line/menu__line.css);
+@import url(../blocks/menu/__entry/menu__entry.css);
+@import url(../blocks/menu/__number/menu__number.css);
+@import url(../blocks/header/header.css);
+@import url(../blocks/header/__two-column/header__two-column.css);
+@import url(../blocks/header/__block-one/header__block-one.css);
+@import url(../blocks/header/__image/header__image.css);
+@import url(../blocks/header/__block-two/header__block-two.css);
+@import url(../blocks/header/__title/header__title.css);
+@import url(../blocks/header/_line/header__line.css);
+@import url(../blocks/header/__subtitle/header__subtitle.css);
+@import url(../blocks/header/__button/header__button.css);
+@import url(../blocks/intro/intro.css);
+@import url(../blocks/intro/__list/intro__list.css);
+@import url(../blocks/intro/__item/intro__item.css);
+@import url(../blocks/intro/__block/intro__block.css);
+@import url(../blocks/intro/__image/intro__image.css);
+@import url(../blocks/intro/__paragrath/intro__paragrath.css);
+@import url(../blocks/intro/__button/intro__button.css);
+@import url(../blocks/stock/stock.css);
+@import url(../blocks/stock/__block/stock__block.css);
+@import url(../blocks/stock/__title/stock__title.css);
+@import url(../blocks/stock/__button/stock__button.css);
+@import url(../blocks/info/info.css);
+@import url(../blocks/info/__two-columns/info__two-columns.css);
+@import url(../blocks/info/__block-one/info__block-one.css);
+@import url(../blocks/info/__block-two/info__block-two.css);
+
+.info__item{
+    display: flex;
+    flex-direction: column;
+    max-width: 250px;
+    align-items: center;
+}
+
+.info__image{
+    width: 106px;
+    height: 106px;
+}
+
+.info__title{
+    margin: 30px 0 0;
+    font-family: 'Cormorant Infant';
+    font-style: italic;
+    font-weight: 600;
+    font-size: 25px;
+    line-height: 30px;
+    letter-spacing: 0.03em;
+    color: #000000;
+}
+
+.info__subtitle{
+    margin: 0;
+    font-family: 'Forum';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 18px;
+    color: #000000; 
+    margin-top: 40px;
+}
+
+.address{
+    color: #007BB6;
+    display: flex;
+    /* justify-content: center; */
+    margin-top: 120px;
+    display: grid;
+    grid-template-columns: 150px 150px;
+
+    gap: 50px 40px;
+}
+
+.adress__item{
+    display: flex;
+    flex-direction: column;
+}
+
+.adress__item-last{
+    display: flex;
+    align-items: flex-end;
+}
+
+.adress__title{
+    font-family: 'Cormorant Infant';
+    font-style: italic;
+    font-weight: 600;
+    font-size: 25px;
+    line-height: 30px;
+    margin: 0;
+}
+
+.adress__subtitle{
+    font-family: 'Forum';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 18px;
+    margin: 20px 0 0 0;
+}
+
+.adress__item-img{
+    width: 52px;
+    height: 52px;
+    margin-right: 50px;
+}
+
+.adress__item-img:last-child{
+    margin: 0;
+}
+
+.footer{
+    min-height: 260px;
+    margin-top: 120px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #98BDDF;
+}
+
+.footer__block{
+    display: flex;
+    align-items: center;
+    list-style: none;
+    padding: 0;
+    margin: 0 0 0 100px;
+}
+
+.footer__item{
+    margin-right: 130px;
+}
+
+.footer__img{
+    width: 50px;
+    height: 50px;
+    margin-right: 40px;
+}
+
+.footer__img:last-child{
+ margin: 0;
+}
+
+.footer__title{
+    font-family: 'Cormorant Infant';
+    font-style: italic;
+    font-weight: 600;
+    font-size: 25px;
+    line-height: 30px;
+    display: flex;
+    align-items: center;
+    color: #FFFFFF;
+    margin: 0 0 20px 0;
+}
+
+.footer__subtitle{
+    font-family: 'Forum';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 18px;
+    color: #FFFFFF;
+    margin: 0;
+}
+
+.doctors{
+    margin: 120px 0 0;
+    flex-direction: column;
+    align-items: center;
+    overflow: hidden;
+    min-width: 0;
+}
+
+.doctors__element{
+    display: flex;
+    justify-content: center;
+    margin-top: 60px;
+    transition: 2s;
+    min-width: 0;
+}
+
+.doctors__slide{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 50px 0 0;
+    min-width: 0;
+}
+
+.doctors__slide:last-child{
+    margin: 0;
+}
+
+.doctors__block{
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 327px;
+    height: 320px;
+    border: 2px solid rgba(0, 123, 182, 0.68);
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    object-fit: cover;
+}
+
+#D1{
+    background-image: url(../images/DoctorsIrina.png);
+}
+
+#D2{
+    background-image: url(../images/DoctorsNina.png);
+}
+
+#D3{
+    background-image: url(../images/DoctorsKatya.png);
+}
+
+#D4{
+    background-image: url(../images/DoctorsOlga.png);
+}
+
+#D5{
+    background-image: url(../images/DoctorsAlena.png);
+}
+
+.doctors__text{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    width: 100%;
+    height: 90px;
+    background: #FFFFFF;
+}
+
+.doctors__name{
+    font-family: 'Forum';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 22px;
+    text-align: center;
+    color: #000000;
+    margin: 5px 0 0 0;
+}
+
+.doctors__subtitle{ 
+    font-family: 'Cormorant Infant';
+    font-style: italic;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+    color: #000000;
+    margin: 5px 0 0 ;
+}
+
+.doctors__button{
+    margin: 30px 0 0;
+    padding: 0;
+    width: 150px;
+    height: 50px;
+    border: none;
+    background: none;
+    border-radius: 5px;
+    font-family: 'Forum';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 22px;
+    text-align: center;
+    color: #007BB6;
+    border: 1px solid #007BB6;
+}
+
+.photo{
+    margin: 120px 0 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.photo__slide{
+    display: flex;
+    align-items: center;
+}
+
+.photo__btn-left{
+    background: url(../images/DoctorsLeft.svg);
+    margin: 0 30px 0 0;
+    background-size: cover;
+    width: 59px;
+    height: 35px;
+    border: none;
+    padding: 0;
+}
+
+.photo__btn-right{
+    background: url(../images/DoctorsRight.svg);
+    margin: 0 0 0 30px;
+    background-size: cover;
+    width: 59px;
+    height: 35px;
+    border: none;
+    padding: 0;
+}
+
+.photo__img{
+    max-width: 900px;
+    height: 620px;
+    object-fit: cover;
+    border: 2px solid #007BB6;
+}
+
+.photo__dots{
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+}
+
+.photo__dot{
+    background: url(../images/Dot.svg);
+    background-size: cover;
+    width: 21px;
+    height: 20px;
+    margin-right: 20px;
+}
+
+.photo__dot:last-child{
+    margin: 0;
+}
+
+.photo__dot-active{
+    background: url(../images/DotActive.svg);
+    width: 20px;
+    height: 19px;
+}
+
+.reviews{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 200px 0 0;
+}
+
+.reviews__slide{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid #007BB6;
+    max-width: 1110px;
+    height: 350px;
+}
+
+.slide {
+    display: none;
+}
+
+@keyframes opacity {
+    from {
+        opacity: 0.15;
+    }
+
+    to {
+        opacity: 1;
+    }
+}
+
+.slide.active {
+    display: flex;
+    animation: opacity ease-in-out 0.5s;
+}
+
+.reviews__block-one{
+    min-width: 380px;
+    padding: 0 95px 0 95px;
+}
+
+.reviews__avatar{
+    max-width: 113px;
+    clip-path: circle(50%);
+}
+
+.reviews__name{
+    font-family: 'Cormorant Infant';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 30px;
+    color: #000000;
+    margin: 8px 0 0;
+}
+
+.reviews__subtitle{
+    font-family: 'Forum';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 18px;
+    color: #000000;
+    margin: 8px 0 0;
+}
+
+.reviews__block-two{
+    padding: 0 95px 0 0;
+}
+
+.reviews__patient{
+    text-align: right;
+}
+
+.reviews__comment{
+    font-family: 'Forum';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 18px;
+    color: #000000;
+    margin: 15px 0 0;
+}
+
+.reviews__btn-left{
+    background: url(../images/DoctorsLeft.svg);
+    background-size: cover;
+    width: 59px;
+    height: 35px;
+    border: none;
+    margin: 0 35px 0 0;
+    padding: 0;
+}
+
+.reviews__btn-right{
+    background: url(../images/DoctorsRight.svg);
+    background-size: cover;
+    width: 59px;
+    height: 35px;
+    border: none;
+    padding: 0;
+}
+
+.reviews__element{
+    display: flex;
+    justify-content: center;
+    margin-top: 60px;
+}
+
+.slick-list {
+    overflow: hidden;
+    max-width: 1100px;
+}
+
+.slick-track{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.slick-arrow{
+    position: absolute;
+    z-index: 10;
+    font-size: 0;
+    width: 59px;
+    height: 35px;
+    border: none;
+    padding: 0;
+    bottom: 0;
+}
+
+.slick-arrow.slick-prev{
+    background: url(../images/DoctorsLeft.svg) no-repeat;
+    background-size: cover;
+    left: 550px;
+
+}
+
+.slick-arrow.slick-next{
+    background: url(../images/DoctorsRight.svg);
+    background-size: cover;
+    right: 550px;
+}
+
+.slider{
+    position: relative;
+    width: 1250px;
+    height: 480px;
+    margin: 0 auto;
+}

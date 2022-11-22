@@ -1,0 +1,8 @@
+.menu__block {
+    width: 100%;
+    height: 100px;
+    background: #98BDDF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

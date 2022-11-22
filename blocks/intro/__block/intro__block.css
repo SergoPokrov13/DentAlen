@@ -1,0 +1,9 @@
+.intro__block{
+    min-width: 240px;
+    max-height: 236px;
+    border: 2px solid #007BB6;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}

@@ -1,0 +1,8 @@
+.stock__block{
+    width: 100%;
+    height: 180px;
+    background: #98BDDF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

@@ -1,0 +1,15 @@
+.intro__button{
+    margin-top: 20px;
+    border: 1px solid #007BB6;
+    border-radius: 5px;
+    background: none;
+    font-family: 'Forum';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 18px;
+    text-align: center;
+    color: #007BB6;
+    width: 120px;
+    height: 40px;
+}

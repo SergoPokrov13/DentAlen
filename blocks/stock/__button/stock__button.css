@@ -1,0 +1,14 @@
+.stock__button{
+    border: none;
+    background: #FFFFFF;
+    border-radius: 10px;
+    max-width: 250px;
+    height: 70px;
+    font-family: 'Forum';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 33px;
+    text-align: center;
+    color: #007BB6;
+}

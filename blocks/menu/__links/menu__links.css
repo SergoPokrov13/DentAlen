@@ -1,0 +1,6 @@
+.menu__links{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    margin: 0;
+}

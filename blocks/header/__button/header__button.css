@@ -1,0 +1,15 @@
+.header__button{
+    background: #007BB6;
+    border-radius: 5px;
+    width: 255px;
+    height: 64px;
+    border: none;
+    font-family: 'Forum';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 33px;
+    text-align: center;
+    color: #FFFFFF;
+    margin-top: 75px;
+}
