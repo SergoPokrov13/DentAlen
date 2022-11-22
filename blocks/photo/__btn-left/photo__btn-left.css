@@ -7,3 +7,19 @@
     border: none;
     padding: 0;
 }
+
+@media screen and (max-width: 810px) {
+    .photo__btn-left{
+        margin: 0 10px 0 0;
+        width: 30px;
+        height: 16px;
+    }
+}
+
+@media screen and (max-width: 440px) {
+    .photo__btn-left{
+        margin: 0 5px 0 0;
+        width: 25px;
+        height: 14px;
+    }
+}

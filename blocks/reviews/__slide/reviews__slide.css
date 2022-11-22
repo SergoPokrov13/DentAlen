@@ -6,3 +6,15 @@
     max-width: 1110px;
     height: 350px;
 }
+
+@media screen and (max-width: 700px) {
+    .reviews__slide{
+        height: 250px;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .reviews__slide{
+        border: 1px solid #007BB6;
+    }
+}

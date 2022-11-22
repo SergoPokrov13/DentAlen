@@ -7,3 +7,12 @@
     margin: 0 35px 0 0;
     padding: 0;
 }
+
+
+@media screen and (max-width: 500px) {
+    .reviews__btn-left{
+        margin: 0 25px 0 0;
+        width: 30px;
+        height: 16px;
+    }
+}

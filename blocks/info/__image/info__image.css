@@ -2,3 +2,10 @@
     width: 106px;
     height: 106px;
 }
+
+@media screen and (max-width: 500px) {
+    .info__image{
+        width: 70px;
+        height: 70px;
+    }
+}

@@ -4,3 +4,15 @@
     align-items: center;
     margin: 200px 0 0;
 }
+
+@media screen and (max-width: 1100px) {
+    .reviews{
+        margin: 120px 0 0;
+    }
+}
+
+@media screen and (max-width: 700px) {
+    .reviews{
+        margin: 80px 0 0 0;
+    }
+} 

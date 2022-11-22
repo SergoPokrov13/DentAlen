@@ -8,3 +8,19 @@
     letter-spacing: 0.03em;
     color: #000000;
 }
+
+@media screen and (max-width: 1120px) {
+    .info__title{
+        margin: 15px 0 0;
+        font-size: 20px;
+        line-height: 25px;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .info__title{
+        margin: 10px 0 0;
+        font-size: 16px;
+        line-height: 18px;
+    }
+}

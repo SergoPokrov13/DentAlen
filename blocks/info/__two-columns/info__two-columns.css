@@ -1,4 +1,11 @@
-.info__two-columns{
+.info__two-columns {
     display: flex;
     justify-content: center;
+}
+
+@media screen and (max-width: 900px) {
+    .info__two-columns {
+        flex-direction: column;
+        align-items: center;
+    }
 }
