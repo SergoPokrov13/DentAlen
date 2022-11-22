@@ -1,0 +1,9 @@
+.reviews__name{
+    font-family: 'Cormorant Infant';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 30px;
+    color: #000000;
+    margin: 8px 0 0;
+}

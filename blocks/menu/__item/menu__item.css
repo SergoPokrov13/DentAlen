@@ -1,3 +1,25 @@
 .menu__item{
     margin: 0 50px 0 0;
 }
+
+@media screen and (max-width: 905px) {
+    .menu__item{
+        margin: 0 20px 0 0;
+    }
+} 
+
+@media screen and (max-width: 630px) {
+    .menu__item{
+        margin: 0 10px 0 0;
+    }
+} 
+
+@media screen and (max-width: 390px) {
+    .menu__item{
+        margin: 0 7px 0 0;
+    }
+} 
+
+.menu__item:last-child{
+    margin: 0 0;
+}

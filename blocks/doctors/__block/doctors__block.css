@@ -1,0 +1,32 @@
+.doctors__block{
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 327px;
+    height: 320px;
+    border: 2px solid rgba(0, 123, 182, 0.68);
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    object-fit: cover;
+}
+
+#D1{
+    background-image: url(../../../images/DoctorsIrina.png);
+}
+
+#D2{
+    background-image: url(../../../images/DoctorsNina.png);
+}
+
+#D3{
+    background-image: url(../../../images/DoctorsKatya.png);
+}
+
+#D4{
+    background-image: url(../../../images/DoctorsOlga.png);
+}
+
+#D5{
+    background-image: url(../../../images/DoctorsAlena.png);
+}

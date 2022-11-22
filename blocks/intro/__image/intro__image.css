@@ -3,3 +3,11 @@
     width: 95px;
     height: 80px;
 }
+
+@media screen and (max-width: 590px) {
+    .intro__image{
+        padding: 30px 30px 0;
+        width: 55px;
+        height: 45px;
+    }
+} 

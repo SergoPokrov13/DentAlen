@@ -2,7 +2,7 @@
     border: none;
     background: #FFFFFF;
     border-radius: 10px;
-    max-width: 250px;
+    min-width: 250px;
     height: 70px;
     font-family: 'Forum';
     font-style: normal;
@@ -12,3 +12,27 @@
     text-align: center;
     color: #007BB6;
 }
+
+@media screen and (max-width: 1000px) {
+    .stock__button{
+        min-width: 170px;
+        height: 40px;
+        font-size: 22px;
+        line-height: 24px;
+    }
+} 
+
+@media screen and (max-width: 700px) {
+    .stock__button{
+        margin: 30px 0 0;
+    }
+} 
+
+@media screen and (max-width: 500px) {
+    .stock__button{
+        min-width: 150px;
+        height: 40px;
+        font-size: 18px;
+        line-height: 20px;
+    }
+} 

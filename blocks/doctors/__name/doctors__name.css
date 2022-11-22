@@ -1,0 +1,10 @@
+.doctors__name{
+    font-family: 'Forum';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 22px;
+    text-align: center;
+    color: #000000;
+    margin: 5px 0 0 0;
+}

@@ -1,0 +1,10 @@
+.doctors__subtitle{ 
+    font-family: 'Cormorant Infant';
+    font-style: italic;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+    color: #000000;
+    margin: 5px 0 0 ;
+}

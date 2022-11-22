@@ -4,3 +4,10 @@
     flex-direction: column;
     align-items: flex-end;
 }
+
+@media screen and (max-width: 590px) {
+    .header__block-two{
+        max-width: 400px;
+        margin-right: 15px;
+    }
+} 

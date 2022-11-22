@@ -8,4 +8,12 @@
     align-items: center;
     text-align: center;
     color: #007BB6;
+    margin: 0;
 }
+
+@media screen and (max-width: 580px) {
+    .menu__number{
+        font-size: 12px;
+        line-height: 18px;
+    }
+} 

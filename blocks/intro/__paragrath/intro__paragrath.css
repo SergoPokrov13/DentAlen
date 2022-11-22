@@ -8,3 +8,11 @@
     color: #007BB6;
     margin-top: 50px;
 }
+
+@media screen and (max-width: 590px) {
+    .intro__paragrath{
+        font-size: 18px;
+        line-height: 22px;
+        margin-top: 20px;
+    }
+} 

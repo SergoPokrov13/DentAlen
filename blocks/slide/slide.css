@@ -1,0 +1,18 @@
+.slide {
+    display: none;
+}
+
+@keyframes opacity {
+    from {
+        opacity: 0.15;
+    }
+
+    to {
+        opacity: 1;
+    }
+}
+
+.slide.active {
+    display: flex;
+    animation: opacity ease-in-out 0.5s;
+}

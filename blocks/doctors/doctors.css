@@ -1,0 +1,7 @@
+.doctors{
+    margin: 120px 0 0;
+    flex-direction: column;
+    align-items: center;
+    overflow: hidden;
+    min-width: 0;
+}

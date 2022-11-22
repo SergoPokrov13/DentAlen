@@ -1,0 +1,8 @@
+.footer{
+    min-height: 260px;
+    margin-top: 120px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #98BDDF;
+}

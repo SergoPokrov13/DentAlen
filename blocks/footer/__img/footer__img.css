@@ -1,0 +1,9 @@
+.footer__img{
+    width: 50px;
+    height: 50px;
+    margin-right: 40px;
+}
+
+.footer__img:last-child{
+ margin: 0;
+}

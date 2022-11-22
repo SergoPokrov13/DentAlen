@@ -1,0 +1,4 @@
+.reviews__avatar{
+    max-width: 113px;
+    clip-path: circle(50%);
+}

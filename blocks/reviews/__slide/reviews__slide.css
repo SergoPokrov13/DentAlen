@@ -1,0 +1,8 @@
+.reviews__slide{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid #007BB6;
+    max-width: 1110px;
+    height: 350px;
+}

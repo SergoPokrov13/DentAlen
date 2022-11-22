@@ -8,3 +8,17 @@
     color: #000000;
     margin: 0;
 }
+
+@media screen and (max-width: 780px) {
+    .header__title{
+        font-size: 35px;
+        line-height: 40px;
+    }
+} 
+
+@media screen and (max-width: 590px) {
+    .header__title{
+        font-size: 30px;
+        line-height: 32px;
+    }
+} 

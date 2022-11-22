@@ -9,3 +9,25 @@
     color: #000000;
     text-decoration: none;
 }
+
+@media screen and (max-width: 690px) {
+    .menu__link {
+        font-size: 14px;
+        line-height: 14px;
+    }
+} 
+
+@media screen and (max-width: 580px) {
+    .menu__link {
+        font-size: 12px;
+        line-height: 14px;
+    }
+} 
+
+@media screen and (max-width: 390px) {
+    .menu__link {
+        font-size: 10px;
+        line-height: 14px;
+    }
+} 
+

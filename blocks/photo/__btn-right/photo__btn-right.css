@@ -1,0 +1,9 @@
+.photo__btn-right{
+    background: url(../../../images/DoctorsRight.svg);
+    margin: 0 0 0 30px;
+    background-size: cover;
+    width: 59px;
+    height: 35px;
+    border: none;
+    padding: 0;
+}

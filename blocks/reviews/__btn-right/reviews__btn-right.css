@@ -1,0 +1,8 @@
+.reviews__btn-right{
+    background: url(../../../images/DoctorsRight.svg);
+    background-size: cover;
+    width: 59px;
+    height: 35px;
+    border: none;
+    padding: 0;
+}

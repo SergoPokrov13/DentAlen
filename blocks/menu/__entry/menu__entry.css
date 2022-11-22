@@ -6,5 +6,16 @@
     align-items: center;
     border: 1px solid #007BB6;
     border-radius: 5px;;
-    margin-top: -7px;
+    margin: -7px 0 0 50px;
 }
+
+@media screen and (max-width: 580px) {
+    .menu__entry{
+        margin: 0;
+        width: 60px;
+        height: 20px;
+        position: absolute;
+        bottom: 5px;
+        right: 13px;
+    }
+} 

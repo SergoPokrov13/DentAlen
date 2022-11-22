@@ -1,0 +1,6 @@
+.photo__img{
+    max-width: 900px;
+    height: 620px;
+    object-fit: cover;
+    border: 2px solid #007BB6;
+}
