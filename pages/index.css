@@ -32,89 +32,19 @@
 @import url(../blocks/info/__two-columns/info__two-columns.css);
 @import url(../blocks/info/__block-one/info__block-one.css);
 @import url(../blocks/info/__block-two/info__block-two.css);
-
-.info__item{
-    display: flex;
-    flex-direction: column;
-    max-width: 250px;
-    align-items: center;
-}
-
-.info__image{
-    width: 106px;
-    height: 106px;
-}
-
-.info__title{
-    margin: 30px 0 0;
-    font-family: 'Cormorant Infant';
-    font-style: italic;
-    font-weight: 600;
-    font-size: 25px;
-    line-height: 30px;
-    letter-spacing: 0.03em;
-    color: #000000;
-}
-
-.info__subtitle{
-    margin: 0;
-    font-family: 'Forum';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 18px;
-    color: #000000; 
-    margin-top: 40px;
-}
-
-.address{
-    color: #007BB6;
-    display: flex;
-    /* justify-content: center; */
-    margin-top: 120px;
-    display: grid;
-    grid-template-columns: 150px 150px;
-
-    gap: 50px 40px;
-}
-
-.adress__item{
-    display: flex;
-    flex-direction: column;
-}
-
-.adress__item-last{
-    display: flex;
-    align-items: flex-end;
-}
-
-.adress__title{
-    font-family: 'Cormorant Infant';
-    font-style: italic;
-    font-weight: 600;
-    font-size: 25px;
-    line-height: 30px;
-    margin: 0;
-}
-
-.adress__subtitle{
-    font-family: 'Forum';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 18px;
-    margin: 20px 0 0 0;
-}
-
-.adress__item-img{
-    width: 52px;
-    height: 52px;
-    margin-right: 50px;
-}
-
-.adress__item-img:last-child{
-    margin: 0;
-}
+@import url(../blocks/info/__item/info__item.css);
+@import url(../blocks/info/__image/info__image.css);
+@import url(../blocks/info/__title/info__title.css);
+@import url(../blocks/info/__subtitle/info__subtitle.css);
+@import url(../blocks/address/address.css);
+@import url(../blocks/address/__block-one/adress__block-one.css);
+@import url(../blocks/address/__block-two/adress__block-two.css);
+@import url(../blocks/address/__list/adress__list.css);
+@import url(../blocks/address/__item/adress__item.css);
+@import url(../blocks/address/__item-last/adress__item-last.css);
+@import url(../blocks/address/__title/adress__title.css);
+@import url(../blocks/address/__subtitle/adress__subtitle.css);
+@import url(../blocks/address/__item-img/adress__item-img.css);
 
 .footer{
     min-height: 260px;

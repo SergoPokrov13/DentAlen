@@ -1,0 +1,9 @@
+.adress__item-img{
+    width: 52px;
+    height: 52px;
+    margin-right: 50px;
+}
+
+.adress__item-img:last-child{
+    margin: 0;
+}

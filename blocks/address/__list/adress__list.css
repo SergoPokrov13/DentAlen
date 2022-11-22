@@ -1,0 +1,7 @@
+.adress__list{
+    display: grid;
+    grid-template-columns: 160px 160px;
+    padding: 0;
+    margin: 36px 0 0;
+    gap: 30px 50px;
+}

@@ -1,0 +1,6 @@
+.info__item{
+    display: flex;
+    flex-direction: column;
+    max-width: 250px;
+    align-items: center;
+}
