@@ -1,0 +1,10 @@
+.services__block-two{
+    width: 900px;
+    height: 800px;
+    border: 2px solid #007BB6;
+    margin: 0 0 0 30px;
+    display: none;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}

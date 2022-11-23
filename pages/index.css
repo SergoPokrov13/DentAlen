@@ -1,3 +1,4 @@
+/* main */
 @import url(../fonts/font.css);
 @import url(../blocks/root/root.css);
 @import url(../blocks/button/button.css);
@@ -84,165 +85,22 @@
 @import url(../blocks/reviews/__element/reviews__element.css);
 @import url(../blocks/slik-slider/slik-slider.css);
 
-.services{
-    margin-top: 160px;
-    padding-top: 120px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.services__block-one{
-    display: flex;
-    flex-direction: column;
-}
-
-.services__item{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 160px;
-    height: 130px;
-    margin-bottom: 90px;
-    background-repeat: no-repeat;
-    background-position: center;
-}
-
-.treatment{
-    background-image: url(../images/IntroTreatment.svg);
-}
-
-.orthopedics{
-    background-image: url(../images/IntroOrthopedics.svg);
-}
-
-.hygiene{
-    background-image: url(../images/IntroHygiene.svg);
-}
-
-.whitening{
-    background-image: url(../images/IntroWhitening.svg);
-}
-
-.services__item_active{
-    border: 2px solid #007BB6;
-}
-
-.services__item:last-child{
-    margin: 0;
-}
-
-.services__block-two{
-    max-width: 900px;
-    height: 800px;
-    border: 2px solid #007BB6;
-    margin: 0 0 0 30px;
-    display: none;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-}
-
-.services__block-two_active{
-    display: flex;
-}
-
-.services__two-columns{
-    display: flex;
-    justify-content: center;
-    padding: 50px 30px 0 80px;
-}
-
-.services__title{
-    font-family: 'Cormorant Infant';
-    font-style: italic;
-    font-weight: 600;
-    font-size: 30px;
-    line-height: 36px;
-    text-align: center;   
-    color: #000000; 
-    margin: 0;
-    width: 500px;
-    border-bottom: 2px solid #007BB6;
-}
-
-.services__block-info{
-    max-width: 450px;
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    padding: 0 30px 0 0;
-}
-
-.services__text{
-    font-family: 'Forum';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 18px;
-    color: #000000;
-    margin: 0;
-}
-
-.services__subtitle{
-    font-family: 'Cormorant Infant';
-    font-style: italic;
-    font-weight: 600;
-    font-size: 25px;
-    line-height: 30px;
-    color: #000000;
-    margin: 30px 0 16px;
-    white-space: nowrap;
-}
-
-.services__buttons{
-    display: flex;
-    margin: 120px 0 0;
-}
-
-.services__button-price{
-    background: #007BB6;
-    border-radius: 5px;
-    border: none;
-    width: 150px;
-    height: 50px;
-    padding: 0;
-
-    font-family: 'Forum';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 18px;
-    text-align: center;
-    color: #FFFFFF;
-}
-
-.services__button-services{
-    background: #ffffff;
-    border-radius: 5px;
-    border: 1px solid #007BB6;
-    width: 150px;
-    height: 50px;
-    padding: 0;
-    margin: 0 0 0 30px;
-
-    font-family: 'Forum';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 18px;
-    text-align: center;
-    color: #007BB6;
-}
-
-.services__image{
-    max-width: 256px;
-    height: 228px;
-    border-radius: 5px;
-    object-fit: cover;
-}
-
-
+/* services */
+@import url(../blocks/services/services.css);
+@import url(../blocks/services/__block-one/services__block-one.css);
+@import url(../blocks/services/__item/services__item.css);
+@import url(../blocks/services/__item/_active/services__item_active.css);
+@import url(../blocks/services/__block-two/services__block-two.css);
+@import url(../blocks/services/__block-two/_active/services__block-two_active.css);
+@import url(../blocks/services/__two-columns/services__two-columns.css);
+@import url(../blocks/services/__title/services__title.css);
+@import url(../blocks/services/__block-info/services__block-info.css);
+@import url(../blocks/services/__text/services__text.css);
+@import url(../blocks/services/__subtitle/services__subtitle.css);
+@import url(../blocks/services/__buttons/services__buttons.css);
+@import url(../blocks/services/__button-price/services__button-price.css);
+@import url(../blocks/services/__button-services/services__button-services.css);
+@import url(../blocks/services/__image/services__image.css);
 
 .slide {
     display: none;

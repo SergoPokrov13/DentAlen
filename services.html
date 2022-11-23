@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,14 +8,15 @@
     <link rel="stylesheet" href="./pages/index.css">
     <title>DentAlen</title>
 </head>
+
 <body class="root">
     <header class="menu">
         <div class="menu__block">
             <img class="logo" src="./images/Logo.svg" alt="Логотип">
         </div>
-           <div class="menu__line">
+        <div class="menu__line">
             <ul class="menu__links">
-                <li class="menu__item button"><a class="menu__link" href="./index.html">Главная</a></li>
+                <li class="menu__item button"><a class="menu__link" href="./main.html">Главная</a></li>
                 <li class="menu__item button"><a class="menu__link" href="#">Услуги</a></li>
                 <li class="menu__item button"><a class="menu__link" href="">О клинике</a></li>
                 <li class="menu__item button"><a class="menu__link" href="">Врачи</a></li>
@@ -30,18 +32,22 @@
     <main class="main">
         <section class="services">
             <div class="services__block-one">
-                <div class="services__item services__item_active treatment"></div>
-                <div class="services__item orthopedics"></div>
-                <div class="services__item hygiene"></div>
-                <div class="services__item whitening"></div>
+                <div id="btnTreatment" class="services__item services__item_active treatment button"></div>
+                <div id="btnOrthopedics" class="services__item orthopedics button"></div>
+                <div id="btnHygiene" class="services__item hygiene button"></div>
+                <div id="btnWhitening" class="services__item whitening button"></div>
             </div>
-            <div class="services__block-two services__block-two_active">
+            <div id="treatment" class="services__block-two services__block-two_active">
                 <h2 class="services__title">Лечение</h2>
                 <div class="services__two-columns">
                     <div class="services__block-info">
-                        <p class="services__text">Лечение зубов представляет собой комплекс процедур по обезболиванию, санации, укреплению и восстановлению их поврежденных участков. Может включать в себя терапевтические, хирургические, ортодонтические, ортопедические методы лечения.</p>
+                        <p class="services__text">Лечение зубов представляет собой комплекс процедур по обезболиванию,
+                            санации, укреплению и восстановлению их поврежденных участков. Может включать в себя
+                            терапевтические, хирургические, ортодонтические, ортопедические методы лечения.</p>
                         <p class="services__subtitle">В чем преимущества лечения зубов?</p>
-                        <p class="services__text">- Большой выбор стоматологических услуг<br><br>- Штат квалифицированных сотрудников<br><br>- Безупречное качество работ<br><br>- Технологичное оборудование последнего поколения</p>
+                        <p class="services__text">- Большой выбор стоматологических услуг<br><br>- Штат
+                            квалифицированных сотрудников<br><br>- Безупречное качество работ<br><br>- Технологичное
+                            оборудование последнего поколения</p>
                         <div class="services__buttons">
                             <button class="services__button-price button">Узнать цену</button>
                             <button class="services__button-services button">Выбрать специалиста</button>
@@ -52,13 +58,18 @@
                     </div>
                 </div>
             </div>
-            <div class="services__block-two">
+            <div id="orthopedics" class="services__block-two">
                 <h2 class="services__title">Ортопедия</h2>
                 <div class="services__two-columns">
                     <div class="services__block-info">
-                        <p class="services__text">Ортопедия в стоматологии – это раздел медицины, который занимается восстановлением зубов с использованием всех современных методик протезирования. Не удивительно, что стоматолог-ортопед в народе больше известен, как протезист.</p>
+                        <p class="services__text">Ортопедия в стоматологии – это раздел медицины, который занимается
+                            восстановлением зубов с использованием всех современных методик протезирования. Не
+                            удивительно, что стоматолог-ортопед в народе больше известен, как протезист.</p>
                         <p class="services__subtitle">В чем преимущества ортопедии зубов?</p>
-                        <p class="services__text">- Восстановления костных тканей и эмали с целью сохранения живых натуральных корней и нервных каналов<br><br>- Установки защитных коронок на зуб не подлежащий эстетической реставрации<br><br>- Индивидуального изготовления и установки разного рода протезов</p>
+                        <p class="services__text">- Восстановления костных тканей и эмали с целью сохранения живых
+                            натуральных корней и нервных каналов<br><br>- Установки защитных коронок на зуб не
+                            подлежащий эстетической реставрации<br><br>- Индивидуального изготовления и установки
+                            разного рода протезов</p>
                         <div class="services__buttons">
                             <button class="services__button-price button">Узнать цену</button>
                             <button class="services__button-services button">Выбрать специалиста</button>
@@ -69,13 +80,18 @@
                     </div>
                 </div>
             </div>
-            <div class="services__block-two">
+            <div id="hygiene" class="services__block-two">
                 <h2 class="services__title">Гигиена</h2>
                 <div class="services__two-columns">
                     <div class="services__block-info">
-                        <p class="services__text">Гигиена полости рта — это комплекс мер, направленных на удаление зубных отложений с целью профилактики стоматологических заболеваний. От качества ее проведения зависит не только здоровье зубов, но и состояние десен, слизистой полости рта и даже органов желудочно-кишечного тракта.</p>
+                        <p class="services__text">Гигиена полости рта — это комплекс мер, направленных на удаление
+                            зубных отложений с целью профилактики стоматологических заболеваний. От качества ее
+                            проведения зависит не только здоровье зубов, но и состояние десен, слизистой полости рта и
+                            даже органов желудочно-кишечного тракта.</p>
                         <p class="services__subtitle">В чем преимущества гигиены зубов?</p>
-                        <p class="services__text">- Нормализуется уровень фтора в организме<br><br>- Повышается прочность зубных единиц<br><br>- Приостанавливается вымывание кальция, влияющее на жизненно важные процессы в костной системе</p>
+                        <p class="services__text">- Нормализуется уровень фтора в организме<br><br>- Повышается
+                            прочность зубных единиц<br><br>- Приостанавливается вымывание кальция, влияющее на жизненно
+                            важные процессы в костной системе</p>
                         <div class="services__buttons">
                             <button class="services__button-price button">Узнать цену</button>
                             <button class="services__button-services button">Выбрать специалиста</button>
@@ -86,13 +102,19 @@
                     </div>
                 </div>
             </div>
-            <div class="services__block-two">
+            <div id="whitening" class="services__block-two">
                 <h2 class="services__title">Отбеливание</h2>
                 <div class="services__two-columns">
                     <div class="services__block-info">
-                        <p class="services__text">Широкая искренняя улыбка очень нужна в нашей повседневной обыденной жизни. Всегда гораздо легче взаимодействовать с доброжелательными людьми, которые искренне улыбаются. У нас создается ощущение, что они открыты для общения и дружелюбно настроены по отношению к нам. Широкая красивая улыбка в наше время – символ успеха и счастливой жизни.</p>
+                        <p class="services__text">Широкая искренняя улыбка очень нужна в нашей повседневной обыденной
+                            жизни. Всегда гораздо легче взаимодействовать с доброжелательными людьми, которые искренне
+                            улыбаются. У нас создается ощущение, что они открыты для общения и дружелюбно настроены по
+                            отношению к нам. Широкая красивая улыбка в наше время – символ успеха и счастливой жизни.
+                        </p>
                         <p class="services__subtitle">В чем преимущества отбеливания зубов?</p>
-                        <p class="services__text">- Ваша улыбка становится более яркой и привлекательной для окружающих.<br><br>- Вы выглядите моложе, ведь с возрастом зубы теряют свой природный оттенок и становятся более темными, тусклыми.<br><br>-  Вы ощущаете уверенность в себе.</p>
+                        <p class="services__text">- Ваша улыбка становится более яркой и привлекательной для
+                            окружающих.<br><br>- Вы выглядите моложе, ведь с возрастом зубы теряют свой природный
+                            оттенок и становятся более темными, тусклыми.<br><br>- Вы ощущаете уверенность в себе.</p>
                         <div class="services__buttons">
                             <button class="services__button-price button">Узнать цену</button>
                             <button class="services__button-services button">Выбрать специалиста</button>
@@ -130,4 +152,5 @@
     </footer>
     <script src="./script/service.js"></script>
 </body>
+
 </html>

@@ -1,0 +1,30 @@
+.services__item{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 160px;
+    height: 130px;
+    margin-bottom: 90px;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.services__item:last-child{
+    margin: 0;
+}
+
+.treatment{
+    background-image: url(../../../images/IntroTreatment.svg);
+}
+
+.orthopedics{
+    background-image: url(../../../images/IntroOrthopedics.svg);
+}
+
+.hygiene{
+    background-image: url(../../../images/IntroHygiene.svg);
+}
+
+.whitening{
+    background-image: url(../../../images/IntroWhitening.svg);
+}

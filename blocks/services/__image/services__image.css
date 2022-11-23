@@ -1,0 +1,6 @@
+.services__image{
+    max-width: 256px;
+    height: 228px;
+    border-radius: 5px;
+    object-fit: cover;
+}
