@@ -104,6 +104,24 @@
     width: 160px;
     height: 130px;
     margin-bottom: 90px;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.treatment{
+    background-image: url(../images/IntroTreatment.svg);
+}
+
+.orthopedics{
+    background-image: url(../images/IntroOrthopedics.svg);
+}
+
+.hygiene{
+    background-image: url(../images/IntroHygiene.svg);
+}
+
+.whitening{
+    background-image: url(../images/IntroWhitening.svg);
 }
 
 .services__item_active{
@@ -119,10 +137,14 @@
     height: 800px;
     border: 2px solid #007BB6;
     margin: 0 0 0 30px;
-    display: flex;
+    display: none;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+}
+
+.services__block-two_active{
+    display: flex;
 }
 
 .services__two-columns{
@@ -170,6 +192,7 @@
     line-height: 30px;
     color: #000000;
     margin: 30px 0 16px;
+    white-space: nowrap;
 }
 
 .services__buttons{
