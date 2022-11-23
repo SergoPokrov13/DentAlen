@@ -11,22 +11,30 @@
     object-fit: cover;
 }
 
-#D1{
+.doctors__one{
     background-image: url(../../../images/DoctorsIrina.png);
 }
 
-#D2{
+.doctors__two{
     background-image: url(../../../images/DoctorsNina.png);
 }
 
-#D3{
+.doctors__three{
     background-image: url(../../../images/DoctorsKatya.png);
 }
 
-#D4{
+.doctors__for{
     background-image: url(../../../images/DoctorsOlga.png);
 }
 
-#D5{
+.doctors__five{
     background-image: url(../../../images/DoctorsAlena.png);
+}
+
+@media screen and (max-width: 620px) {
+    .doctors__block{
+        width: 290px;
+        height: 280px;
+        border: 1px solid rgba(0, 123, 182, 0.68);
+    }
 }

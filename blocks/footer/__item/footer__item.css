@@ -1,3 +1,32 @@
 .footer__item{
     margin-right: 130px;
 }
+
+@media screen and (max-width: 1320px) {
+    .footer__item{
+        margin-right: 80px;
+    }
+} 
+
+@media screen and (max-width: 1020px) {
+    .footer__item:last-child{
+        margin-right: 0;
+    }
+
+    .footer__item{
+        margin-right: 40px;
+    }
+} 
+
+@media screen and (max-width: 750px) {
+    .footer__item{
+        margin-right: 20px;
+    }
+} 
+
+@media screen and (max-width: 560px) {
+    .footer__item:first-child{
+        display: none;
+    }
+} 
+

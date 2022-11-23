@@ -2,8 +2,23 @@
     width: 50px;
     height: 50px;
     margin-right: 40px;
+    object-fit: cover;
 }
 
 .footer__img:last-child{
  margin: 0;
 }
+
+@media screen and (max-width: 750px) {
+    .footer__img{
+        margin: 30px 30px 0 0;
+    }
+} 
+
+@media screen and (max-width: 560px) {
+    .footer__img{
+        margin: 20px 20px 0 0;
+        width: 30px;
+        height: 30px;
+    }
+} 

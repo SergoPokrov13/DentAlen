@@ -9,3 +9,34 @@
         margin: 0 80px 0 0;
     }
 } 
+
+@media screen and (max-width: 860px) {
+    .adress__block-one{
+        max-width: 444px;
+        margin: 0 40px 0 0;
+    }
+} 
+
+@media screen and (max-width: 860px) {
+    .adress__block-one{
+        max-width: 320px;
+        height: 520px;
+        margin: 0 20px 0 0;
+    }
+} 
+
+@media screen and (max-width: 670px) {
+    .adress__block-one{
+        max-width: 444px;
+        max-height: 306px;
+        margin: 0 0 20px 0;
+    }
+} 
+
+@media screen and (max-width: 465px) {
+    .adress__block-one{
+        max-width: 310px;
+        max-height: 210px;
+        margin: 0 0 15px 0;
+    }
+} 

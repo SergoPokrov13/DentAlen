@@ -1,5 +1,6 @@
 @import url(../fonts/font.css);
 @import url(../blocks/root/root.css);
+@import url(../blocks/button/button.css);
 @import url(../blocks/menu/menu.css);
 @import url(../blocks/menu/__block/menu__block.css);
 @import url(../blocks/menu/__links/menu__links.css);
@@ -46,6 +47,7 @@
 @import url(../blocks/address/__title/adress__title.css);
 @import url(../blocks/address/__subtitle/adress__subtitle.css);
 @import url(../blocks/address/__item-img/adress__item-img.css);
+@import url(../blocks/address/__image/adress__image.css);
 @import url(../blocks/footer/footer.css);
 @import url(../blocks/footer/__block/footer__block.css);
 @import url(../blocks/footer/__item/footer__item.css);
@@ -81,6 +83,143 @@
 @import url(../blocks/reviews/__btn-right/reviews__btn-right.css);
 @import url(../blocks/reviews/__element/reviews__element.css);
 @import url(../blocks/slik-slider/slik-slider.css);
+
+.services{
+    margin-top: 160px;
+    padding-top: 120px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.services__block-one{
+    display: flex;
+    flex-direction: column;
+}
+
+.services__item{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 160px;
+    height: 130px;
+    margin-bottom: 90px;
+}
+
+.services__item_active{
+    border: 2px solid #007BB6;
+}
+
+.services__item:last-child{
+    margin: 0;
+}
+
+.services__block-two{
+    max-width: 900px;
+    height: 800px;
+    border: 2px solid #007BB6;
+    margin: 0 0 0 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.services__two-columns{
+    display: flex;
+    justify-content: center;
+    padding: 50px 30px 0 80px;
+}
+
+.services__title{
+    font-family: 'Cormorant Infant';
+    font-style: italic;
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 36px;
+    text-align: center;   
+    color: #000000; 
+    margin: 0;
+    width: 500px;
+    border-bottom: 2px solid #007BB6;
+}
+
+.services__block-info{
+    max-width: 450px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0 30px 0 0;
+}
+
+.services__text{
+    font-family: 'Forum';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 18px;
+    color: #000000;
+    margin: 0;
+}
+
+.services__subtitle{
+    font-family: 'Cormorant Infant';
+    font-style: italic;
+    font-weight: 600;
+    font-size: 25px;
+    line-height: 30px;
+    color: #000000;
+    margin: 30px 0 16px;
+}
+
+.services__buttons{
+    display: flex;
+    margin: 120px 0 0;
+}
+
+.services__button-price{
+    background: #007BB6;
+    border-radius: 5px;
+    border: none;
+    width: 150px;
+    height: 50px;
+    padding: 0;
+
+    font-family: 'Forum';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 18px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.services__button-services{
+    background: #ffffff;
+    border-radius: 5px;
+    border: 1px solid #007BB6;
+    width: 150px;
+    height: 50px;
+    padding: 0;
+    margin: 0 0 0 30px;
+
+    font-family: 'Forum';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 18px;
+    text-align: center;
+    color: #007BB6;
+}
+
+.services__image{
+    max-width: 256px;
+    height: 228px;
+    border-radius: 5px;
+    object-fit: cover;
+}
+
+
 
 .slide {
     display: none;

@@ -15,3 +15,13 @@
     color: #007BB6;
     border: 1px solid #007BB6;
 }
+
+@media screen and (max-width: 620px) {
+    .doctors__button{
+        margin: 15px 0 0;
+        width: 90px;
+        height: 40px;
+        font-size: 16px;
+        line-height: 16px;
+    }
+}

@@ -1,7 +1,19 @@
 .footer__block{
     display: flex;
-    align-items: center;
+    align-items: flex-start;
     list-style: none;
     padding: 0;
     margin: 0 0 0 100px;
+}
+
+@media screen and (max-width: 1320px) {
+    .footer__block{
+        margin: 0 0 0 50px;
+    }
+} 
+
+@media screen and (max-width: 1020px) {
+    .footer__block{
+        margin: 0;
+    }
 }

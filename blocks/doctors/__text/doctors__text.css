@@ -7,3 +7,9 @@
     height: 90px;
     background: #FFFFFF;
 }
+
+@media screen and (max-width: 620px) {
+    .doctors__text{
+        height: 60px;
+    }
+}

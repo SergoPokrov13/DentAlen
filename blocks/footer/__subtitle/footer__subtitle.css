@@ -7,3 +7,10 @@
     color: #FFFFFF;
     margin: 0;
 }
+
+@media screen and (max-width: 560px) {
+    .footer__subtitle{
+        font-size: 13px;
+        line-height: 13px;
+    }
+}
