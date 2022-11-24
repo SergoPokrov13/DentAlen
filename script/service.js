@@ -10,6 +10,14 @@ const orthopedics = document.getElementById('orthopedics');
 const hygiene = document.getElementById('hygiene');
 const whitening = document.getElementById('whitening')
 
+const treatmentTitle = document.getElementById('treatmentTitle');
+const orthopedicsTitle = document.getElementById('orthopedicsTitle');
+const hygAndWhitTitle = document.getElementById('hygAndWhitTitle');
+
+const treatmentBlock = document.getElementById('treatmentBlock');
+const orthopedicsBlock = document.getElementById('orthopedicsBlock');
+const hygAndWhitBlock = document.getElementById('hygAndWhitBlock')
+
 
 items.forEach(i => {
     i.addEventListener('click', e => {
@@ -26,6 +34,40 @@ const addActiveLink = (activelink) => {
         }
     })
 }
+
+
+treatmentTitle.addEventListener('click',e =>{
+    if(treatmentBlock.classList.contains('price__block-price_active')){
+        treatmentBlock.classList.remove('price__block-price_active')
+    }else{
+        treatmentBlock.classList.add('price__block-price_active');
+
+        orthopedicsBlock.classList.remove('price__block-price_active')
+        hygAndWhitBlock.classList.remove('price__block-price_active')
+    }
+})
+
+orthopedicsTitle.addEventListener('click',e =>{
+    if(orthopedicsBlock.classList.contains('price__block-price_active')){
+        orthopedicsBlock.classList.remove('price__block-price_active')
+    }else{
+        orthopedicsBlock.classList.add('price__block-price_active');
+
+        hygAndWhitBlock.classList.remove('price__block-price_active')
+        treatmentBlock.classList.remove('price__block-price_active')
+    }
+})
+
+hygAndWhitTitle.addEventListener('click',e =>{
+    if(hygAndWhitBlock.classList.contains('price__block-price_active')){
+        hygAndWhitBlock.classList.remove('price__block-price_active')
+    }else{
+        hygAndWhitBlock.classList.add('price__block-price_active');
+
+        orthopedicsBlock.classList.remove('price__block-price_active')
+        treatmentBlock.classList.remove('price__block-price_active')
+    }
+})
 
 btnTreatment.addEventListener('click',e =>{
     treatment.classList.add('services__block-two_active');

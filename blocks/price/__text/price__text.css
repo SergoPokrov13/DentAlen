@@ -1,0 +1,28 @@
+.price__text{
+    margin: 0;
+    min-height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    border-left: 1px solid  #ebebeb;
+    padding: 0 8px 0;
+    font-family: 'Lora';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+    color: #333333;
+}
+
+.price__text:last-child{
+    border-right: 1px solid  #ebebeb;
+    justify-content: flex-end;
+}
+
+#onerow{
+    width: 700px;
+}
+
+#threerows{
+    width: 100px;
+}

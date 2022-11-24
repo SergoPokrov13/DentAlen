@@ -101,6 +101,14 @@
 @import url(../blocks/services/__button-price/services__button-price.css);
 @import url(../blocks/services/__button-services/services__button-services.css);
 @import url(../blocks/services/__image/services__image.css);
+@import url(../blocks/price/price.css);
+@import url(../blocks/price/__block/price__block.css);
+@import url(../blocks/price/__title/price__title.css);
+@import url(../blocks/price/__rows/price__rows.css);
+@import url(../blocks/price/__text/price__text.css);
+@import url(../blocks/price/__subtitle/price__subtitle.css);
+@import url(../blocks/price/__block-price/price__block-price.css);
+@import url(../blocks/price/__block-price/_active/price__block-price_active.css);
 
 .slide {
     display: none;

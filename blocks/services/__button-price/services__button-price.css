@@ -14,3 +14,13 @@
     text-align: center;
     color: #FFFFFF;
 }
+
+@media screen and (max-width: 730px) {
+    .services__button-price{
+        width: 100px;
+        height: 40px;
+    
+        font-size: 13px;
+        line-height: 15px;
+    }
+} 

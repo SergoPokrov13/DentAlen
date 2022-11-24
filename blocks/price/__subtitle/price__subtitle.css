@@ -1,0 +1,19 @@
+.price__subtitle{
+    font-family: 'Lora';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 150%;
+    color: #616161;
+    background: #E7E7E7;
+    margin: 0;
+    min-height: 40px;
+    padding: 0 8px 0;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.price__subtitle:last-child{
+    justify-content: flex-end;
+}

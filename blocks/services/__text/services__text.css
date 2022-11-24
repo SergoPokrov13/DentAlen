@@ -7,3 +7,17 @@
     color: #000000;
     margin: 0;
 }
+
+@media screen and (max-width: 1010px) {
+    .services__text{
+        font-size: 14px;
+        line-height: 15px;
+    }
+} 
+
+@media screen and (max-width: 430px) {
+    .services__text{
+        font-size: 12px;
+        line-height: 13px;
+    }
+} 

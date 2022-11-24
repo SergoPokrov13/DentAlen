@@ -8,3 +8,19 @@
     margin: 30px 0 16px;
     white-space: nowrap;
 }
+
+@media screen and (max-width: 1010px) {
+    .services__subtitle{
+        font-size: 20px;
+        line-height: 20px;
+        margin: 20px 0 10px;
+    }
+} 
+
+@media screen and (max-width: 430px) {
+    .services__subtitle{
+        font-size: 16px;
+        line-height: 16px;
+        margin: 10px 0 8px;
+    }
+} 

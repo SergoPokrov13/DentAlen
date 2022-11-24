@@ -5,3 +5,23 @@
     align-items: flex-start;
     padding: 0 30px 0 0;
 }
+
+@media screen and (max-width: 1010px) {
+    .services__block-info{
+        max-width: 330px;
+        padding: 0 20px 0 0;
+    }
+} 
+
+@media screen and (max-width: 730px) {
+    .services__block-info{
+        max-width: 330px;
+        padding: 0;
+    }
+} 
+
+@media screen and (max-width: 430px) {
+    .services__block-info{
+        max-width: 230px;
+    }
+} 

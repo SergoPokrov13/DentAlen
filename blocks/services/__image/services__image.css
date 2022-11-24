@@ -4,3 +4,17 @@
     border-radius: 5px;
     object-fit: cover;
 }
+
+@media screen and (max-width: 1010px) {
+    .services__image{
+        max-width: 200px;
+        height: 170px;
+
+    }
+} 
+
+@media screen and (max-width: 730px) {
+    .services__image{
+        display: none;
+    }
+} 

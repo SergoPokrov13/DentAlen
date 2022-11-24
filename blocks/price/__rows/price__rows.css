@@ -1,0 +1,6 @@
+.price__rows{
+    max-width: 800px;
+    width: 100%;
+    display: flex;
+    border-bottom: 1px solid  #ebebeb;
+}

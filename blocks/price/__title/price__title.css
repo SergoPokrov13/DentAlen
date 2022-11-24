@@ -1,0 +1,16 @@
+.price__title{
+    width: 100%;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 30px 0 0;
+    height: 60px;
+    background: #98BDDF;
+    font-family: 'Forum';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 28px;
+    color: #FFFFFF;
+}
