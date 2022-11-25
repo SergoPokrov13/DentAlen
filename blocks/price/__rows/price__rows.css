@@ -4,3 +4,14 @@
     display: flex;
     border-bottom: 1px solid  #ebebeb;
 }
+
+@media screen and (max-width: 830px) {
+    .price__rows{
+        max-width: 600px;
+    }
+}
+@media screen and (max-width: 620px) {
+    .price__rows{
+        max-width: 310px;
+    }
+}

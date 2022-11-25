@@ -26,3 +26,30 @@
 #threerows{
     width: 100px;
 }
+
+@media screen and (max-width: 830px) {
+    #onerow{
+        width: 500px;
+    }
+    
+    #threerows{
+        width: 100px;
+    }
+}
+
+@media screen and (max-width: 620px) {
+    .price__text{
+        min-height: 30px;
+        padding: 0 8px 0;
+        font-size: 11px;
+        line-height: 100%;
+    }
+
+    #onerow{
+        width: 250px;
+    }
+    
+    #threerows{
+        width: 60px;
+    }
+}

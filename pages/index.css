@@ -110,6 +110,155 @@
 @import url(../blocks/price/__block-price/price__block-price.css);
 @import url(../blocks/price/__block-price/_active/price__block-price_active.css);
 
+.clinic{
+    width: 100%;
+    margin: 160px 0 0;
+    padding-top: 120px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+@media screen and (max-width: 810px) {
+    .clinic{
+        flex-direction: column;
+    }
+}
+
+@media screen and (max-width: 590px) {
+    .clinic{
+        padding: 0;
+        margin-top: 160px;
+    }
+}
+
+.clinic__block-info{
+    display: flex;
+    border: 2px solid #007BB6;
+    justify-content: center;
+    max-width: 1100px;
+    max-height: 700px;
+    padding: 60px 90px 200px;
+}
+
+.clinic__block-one{
+    max-width: 565px;
+    margin: 0 90px 0 0;
+}
+
+.clinic__title{
+    font-family: 'Cormorant Infant';
+    font-style: italic;
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 120%;
+    color: #000000;
+    text-align: center;
+    margin: 0 0 30px 0;
+}
+
+.clinic__text{
+    font-family: 'Forum';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+    color: #000000;
+    margin: 0;
+}
+
+
+.clinic__button{
+    margin: 70px 0 0;
+    background: #007BB6;
+    border: none;
+    border-radius: 5px;
+    width: 150px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    font-family: 'Forum';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 18px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.clinic__block-two{
+    max-width: 260px;
+}
+
+.clinic__img{
+    min-width: 250px;
+    object-fit: cover;
+}
+
+.clinic__img:last-child{
+    margin: 30px 0 0;
+}
+
+
+
+.clinic-info{
+    margin-top: 120px;
+    display: flex;
+    justify-content: center;
+}
+
+.clinic-info__block{
+    display: flex;
+    border: 2px solid #007BB6;
+    justify-content: center;
+    max-width: 1100px;
+    max-height: 700px;
+    padding: 60px 90px;
+}
+
+.clinic-info__image{
+    max-width: 444px;
+    object-fit: cover;
+}
+
+.clinic-info__block-two{
+    max-width: 450px;
+    margin: 0 0 0 30px;
+}
+
+.clinic-info__list{
+    margin: 30px 0 0;
+    padding: 0;
+    display: grid;
+    grid-template-columns: 215px 215px;
+    gap: 40px 20px;
+    list-style: none;
+}
+
+.clinic-info__title{
+    font-family: 'Forum';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 120%;
+    color: #000000;
+    margin: 0;
+}
+
+.clinic-info__subtitle{
+    font-family: 'Forum';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+    color: #000000;
+    margin: 0;
+}
+
+
+
 .slide {
     display: none;
 }

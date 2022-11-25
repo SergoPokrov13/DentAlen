@@ -5,3 +5,16 @@
     align-items: center;
     max-width: 800px;
 }
+
+@media screen and (max-width: 830px) {
+    .price{
+        max-width: 600px;
+        margin: 80px auto;
+    }
+}
+
+@media screen and (max-width: 620px) {
+    .price{
+        max-width: 310px;
+    }
+}

@@ -12,8 +12,17 @@
     display: flex;
     align-items: center;
     justify-content: flex-start;
+    white-space: nowrap;
 }
 
 .price__subtitle:last-child{
     justify-content: flex-end;
+}
+
+@media screen and (max-width: 620px) {
+    .price__subtitle{
+        font-size: 12px;
+        line-height: 100%;
+        min-height: 30px;
+    }
 }

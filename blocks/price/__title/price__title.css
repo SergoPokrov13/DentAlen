@@ -14,3 +14,12 @@
     line-height: 28px;
     color: #FFFFFF;
 }
+
+@media screen and (max-width: 620px) {
+    .price__title{
+        margin: 20px 0 0;
+        height: 40px;
+        font-size: 18px;
+        line-height: 20px;;
+    }
+}
