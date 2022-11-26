@@ -1,0 +1,30 @@
+.clinic-info__image{
+    max-width: 444px;
+    object-fit: cover;
+}
+
+@media screen and (max-width: 1130px) {
+    .clinic-info__image{
+        max-width: 340px;
+    }
+}
+
+@media screen and (max-width: 865px) {
+    .clinic-info__image{
+        max-width: 250px;
+    }
+}
+
+@media screen and (max-width: 700px) {
+    .clinic-info__image{
+        max-width: 150px;
+    }
+}
+
+@media screen and (max-width: 450px) {
+    .clinic-info__image{
+        max-width: 250px;
+        max-height: 300px;
+        margin: 0 0 20px;
+    }
+}

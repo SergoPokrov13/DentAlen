@@ -1,0 +1,22 @@
+.dentists__text{
+    font-family: 'Forum';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 16px;
+    margin: 0;
+}
+
+@media screen and (max-width: 900px) {
+    .dentists__text{
+        font-size: 14px;
+        line-height: 14px;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .dentists__text{
+        font-size: 12px;
+        line-height: 12px;
+    }
+}

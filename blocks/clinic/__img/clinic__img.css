@@ -1,0 +1,15 @@
+.clinic__img{
+    max-width: 250px;
+    object-fit: cover;
+}
+
+.clinic__img:last-child{
+    margin: 30px 0 0;
+}
+
+@media screen and (max-width: 900px) {
+    .clinic__img{
+        max-width: 150px;
+        object-fit: cover;
+    }
+} 

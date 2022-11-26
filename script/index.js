@@ -2,6 +2,7 @@ $(document).ready(function(){
     $('.slider').slick({
         slidesToShow: 3,
         slidesToScroll: 1,
+        initialSlide: 1,
         responsive:[
             {
                 breakpoint: 1250,
@@ -16,7 +17,6 @@ $(document).ready(function(){
                 }
             }
         ],
-
     });
 })
 

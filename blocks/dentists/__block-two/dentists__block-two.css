@@ -1,0 +1,11 @@
+.dentists__block-two{
+    max-width: 255px;
+    margin: 0 0 0 50px;
+}
+
+
+@media screen and (max-width: 755px) {
+    .dentists__block-two{
+        margin: 0 0 30px;
+    }
+}

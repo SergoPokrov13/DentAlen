@@ -1,0 +1,14 @@
+.dentists__block{
+    max-width: 1100px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    border: 2px solid #007BB6;
+    margin: 120px 0 0;
+}
+
+@media screen and (max-width: 590px) {
+    .dentists__block:first-child{
+        margin: 0;
+    }
+}

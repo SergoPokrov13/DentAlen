@@ -1,0 +1,20 @@
+.dentists{
+    margin-top: 160px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+@media screen and (max-width: 810px) {
+    .dentists{
+        flex-direction: column;
+    }
+}
+
+@media screen and (max-width: 590px) {
+    .dentists{
+        padding: 0;
+        margin-top: 160px;
+    }
+}

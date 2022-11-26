@@ -1,0 +1,9 @@
+.document__block-info{
+    padding: 50px 100px;
+}
+
+@media screen and (max-width: 600px) {
+    .document__block-info{
+        padding: 10px;
+    }
+}

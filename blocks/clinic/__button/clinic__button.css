@@ -1,0 +1,30 @@
+.clinic__button{
+    margin: 70px 0 0;
+    background: #007BB6;
+    border: none;
+    border-radius: 5px;
+    width: 150px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    font-family: 'Forum';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 18px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+@media screen and (max-width: 480px) {
+    .clinic__button{
+        margin: 40px 0 0;
+        width: 90px;
+        height: 30px;
+
+        font-size: 12px;
+        line-height: 12px;
+    }
+} 

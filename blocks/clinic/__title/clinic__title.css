@@ -1,0 +1,27 @@
+.clinic__title{
+    font-family: 'Cormorant Infant';
+    font-style: italic;
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 120%;
+    color: #000000;
+    text-align: center;
+    margin: 0 0 30px 0;
+    white-space: nowrap;
+}
+
+@media screen and (max-width: 980px) {
+    .clinic__title{
+        font-size: 40px;
+        line-height: 100%;
+        margin: 0 0 20px 0;
+    }
+} 
+
+@media screen and (max-width: 480px) {
+    .clinic__title{
+        font-size: 25px;
+        line-height: 100%;
+        margin: 0 0 15px 0;
+    }
+} 

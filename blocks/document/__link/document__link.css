@@ -1,0 +1,16 @@
+.document__link{
+    font-family: 'Forum';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 18px;
+    color: #007BB6;
+    text-decoration: none;
+}
+
+@media screen and (max-width: 705px) {
+    .document__link{
+        font-size: 14px;
+        line-height: 14px;
+    }
+}

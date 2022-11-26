@@ -1,0 +1,18 @@
+.clinic__block-one{
+    max-width: 565px;
+    margin: 0 90px 0 0;
+}
+
+@media screen and (max-width: 900px) {
+    .clinic__block-one{
+        max-width: 450px;
+        margin: 0 50px 0 0;
+    }
+} 
+
+@media screen and (max-width: 680px) {
+    .clinic__block-one{
+        max-width: 565px;
+        margin: 0;
+    }
+} 

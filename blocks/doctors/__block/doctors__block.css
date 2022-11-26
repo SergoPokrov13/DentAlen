@@ -12,23 +12,23 @@
 }
 
 .doctors__one{
-    background-image: url(../../../images/DoctorsIrina.png);
+    background-image: url(../../../images/DoctorI.png);
 }
 
 .doctors__two{
-    background-image: url(../../../images/DoctorsNina.png);
+    background-image: url(../../../images/DoctorN.png);
 }
 
 .doctors__three{
-    background-image: url(../../../images/DoctorsKatya.png);
+    background-image: url(../../../images/DoctorK.png);
 }
 
 .doctors__for{
-    background-image: url(../../../images/DoctorsOlga.png);
+    background-image: url(../../../images/DoctorO.png);
 }
 
 .doctors__five{
-    background-image: url(../../../images/DoctorsAlena.png);
+    background-image: url(../../../images/DoctorA.png);
 }
 
 @media screen and (max-width: 620px) {

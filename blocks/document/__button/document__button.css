@@ -1,0 +1,17 @@
+.document__button{
+    border: 1px solid #007BB6;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: none;
+    min-width: 150px;
+    height: 30px;
+    padding: 0;
+}
+
+@media screen and (max-width: 705px) {
+    .document__button{
+        min-width: 100px;
+    }
+}

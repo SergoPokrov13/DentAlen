@@ -1,0 +1,15 @@
+.dentists__vector-teeth{
+    width: 24px;
+    height: 30px;
+    object-fit: cover;
+    margin: 0 15px 0 0;
+}
+
+@media screen and (max-width: 500px) {
+    .dentists__vector-teeth{
+        width: 20px;
+        height: 25px;
+        object-fit: cover;
+        margin: 0 8px 0 0;
+    }
+}

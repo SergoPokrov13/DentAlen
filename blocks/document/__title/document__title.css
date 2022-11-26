@@ -1,0 +1,20 @@
+.document__title{
+    font-family: 'Cormorant Infant';
+    font-style: italic;
+    font-weight: 600;
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+    color: #000000;
+    border-bottom: 2px solid #007BB6;
+    width: 450px;
+    margin: 30px 0 0;
+}
+
+@media screen and (max-width: 600px) {
+    .document__title{
+        font-size: 19px;
+        width: 290px;
+        margin: 10px 0 0;
+    }
+}

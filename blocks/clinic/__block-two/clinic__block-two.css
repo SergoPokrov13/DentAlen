@@ -1,0 +1,9 @@
+.clinic__block-two{
+    max-width: 260px;
+}
+
+@media screen and (max-width: 680px) {
+    .clinic__block-two{
+        display: none;
+    }
+} 

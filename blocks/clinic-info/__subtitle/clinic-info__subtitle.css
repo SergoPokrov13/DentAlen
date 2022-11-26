@@ -1,0 +1,23 @@
+.clinic-info__subtitle{
+    font-family: 'Forum';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+    color: #000000;
+    margin: 0;
+}
+
+@media screen and (max-width: 865px) {
+    .clinic-info__subtitle{
+        font-size: 14px;
+        line-height: 100%;
+    }
+}
+
+@media screen and (max-width: 560px) {
+    .clinic-info__subtitle{
+        font-size: 10px;
+        line-height: 100%;
+    }
+}

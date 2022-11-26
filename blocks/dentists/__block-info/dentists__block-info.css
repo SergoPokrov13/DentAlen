@@ -1,0 +1,19 @@
+.dentists__block-info{
+    display: flex;
+    padding: 70px 90px;
+}
+
+@media screen and (max-width: 755px) {
+    .dentists__block-info{
+        display: flex;
+        flex-direction: column-reverse;  
+        align-items: center;
+        padding: 70px 90px;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .dentists__block-info{
+        padding: 15px;
+    }
+}
