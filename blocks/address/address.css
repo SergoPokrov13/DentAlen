@@ -2,12 +2,12 @@
     color: #007BB6;
     display: flex;
     justify-content: center;
-    margin: 120px 0 0;
+    padding: 120px 0 0;
 }
 
 @media screen and (max-width: 700px) {
     .address{
-        margin: 80px 0 0 0;
+        padding: 80px 0 0 0;
     }
 } 
 

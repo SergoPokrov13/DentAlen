@@ -17,14 +17,13 @@
             <ul class="menu__links">
                 <li class="menu__item button"><a class="menu__link" href="./main.html">Главная</a></li>
                 <li class="menu__item button"><a class="menu__link" href="./services.html">Услуги</a></li>
-                <li class="menu__item button"><a class="menu__link" href="./clinic.html">О клинике</a></li>
+                <li class="menu__item button"><a class="menu__link menu__link_active" href="./clinic.html">О клинике</a></li>
                 <li class="menu__item button"><a class="menu__link" href="./doctors.html">Врачи</a></li>
-                <li class="menu__item button"><a class="menu__link" href="#reviews">Отзывы</a></li>
                 <li class="menu__item button"><a class="menu__link" href="./document.html">Документы</a></li>
-                <li class="menu__item button"><a class="menu__link" href="#address">Контакты</a></li>
+                <li class="menu__item button"><a class="menu__link" href="#footer">Контакты</a></li>
             </ul>
             <div class="menu__entry button">
-                <p class="menu__number">Записаться</p>
+                <a href="tel:+7 (4932) 700-149" class="menu__number">Записаться</a>
             </div>
         </div>
     </header>
@@ -34,7 +33,7 @@
                     <div class="clinic__block-one">
                         <h2 class="clinic__title">О клинике “ДентАлен”</h2>
                         <p class="clinic__text">Клиника “ДентАлен” была основана в 2017 году и с тех пор пять профессиональных специалистов стараются, ради ослепительной улыбки пациентов!<br><br>Наши  врачи проконсультируют насчет борьбы с такими болезнями, как гингивит, флюс, кариес, гранулема и т. п. Дополнительно на приеме вам озвучат рекомендации по поводу гигиенической чистки зубов. Если будет необходимо, доктора организации ответят на вопросы о лечении, протезировании, уходу за зубами.</p>
-                        <button class="clinic__button button">Выбрать услугу</button>
+                        <a href="./services.html" class="clinic__button button">Выбрать услугу</a>
                     </div>
                     <div class="clinic__block-two">
                         <img class="clinic__img" src="../images/clicnicOneBlock1.png" alt="фото клиники">
@@ -46,7 +45,7 @@
         <section class="stock">
             <div class="stock__block">
                 <h2 class="stock__title">Первичная консультация бесплатно!</h2>
-                <button class="stock__button button">+7 (4932) 700-149</button>
+                <a href="tel:+7 (4932) 700-149" class="stock__button button">+7 (4932) 700-149</a>
             </div>
         </section>
 
@@ -75,7 +74,7 @@
             </div>
         </section>
     </main>
-    <footer class="footer">
+    <footer id="footer" class="footer">
         <ul class="footer__block">
             <li class="footer__item">
                 <img class="logo" src="../images/Logo.svg" alt="Логотип">
@@ -94,8 +93,8 @@
             </li>
         </ul>
         <div class="footer__item">
-            <img class="footer__img button" src="../images/FooterVK.png" alt="">
-            <img class="footer__img button" src="../images/FooterInst.svg" alt="">
+            <a class="footer__link" href="https://vk.com/dentalen"><img class="footer__img button" src="../images/FooterVK.png" alt=""></a>
+            <a class="footer__link" href="https://instagram.com/dentalen37?igshid=YmMyMTA2M2Y="><img class="footer__img button" src="../images/FooterInst.svg" alt=""></a>
         </div>
     </footer>       
     </body>

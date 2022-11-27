@@ -11,6 +11,10 @@
     line-height: 33px;
     text-align: center;
     color: #007BB6;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 @media screen and (max-width: 1000px) {

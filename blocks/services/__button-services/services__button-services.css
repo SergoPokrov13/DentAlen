@@ -6,6 +6,9 @@
     height: 50px;
     padding: 0;
     margin: 0 0 0 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 
     font-family: 'Forum';
     font-style: normal;
@@ -14,6 +17,7 @@
     line-height: 18px;
     text-align: center;
     color: #007BB6;
+    text-decoration: none;
 }
 
 @media screen and (max-width: 730px) {

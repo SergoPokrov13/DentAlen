@@ -18,15 +18,14 @@
         <div class="menu__line">
             <ul class="menu__links">
                 <li class="menu__item button"><a class="menu__link" href="./main.html">Главная</a></li>
-                <li class="menu__item button"><a class="menu__link" href="./services.html">Услуги</a></li>
+                <li class="menu__item button"><a class="menu__link menu__link_active" href="./services.html">Услуги</a></li>
                 <li class="menu__item button"><a class="menu__link" href="./clinic.html">О клинике</a></li>
                 <li class="menu__item button"><a class="menu__link" href="./doctors.html">Врачи</a></li>
-                <li class="menu__item button"><a class="menu__link" href="#reviews">Отзывы</a></li>
                 <li class="menu__item button"><a class="menu__link" href="./document.html">Документы</a></li>
-                <li class="menu__item button"><a class="menu__link" href="#address">Контакты</a></li>
+                <li class="menu__item button"><a class="menu__link" href="#footer">Контакты</a></li>
             </ul>
             <div class="menu__entry button">
-                <p class="menu__number">Записаться</p>
+                <a href="tel:+7 (4932) 700-149" class="menu__number">Записаться</a>
             </div>
         </div>
     </header>
@@ -50,8 +49,8 @@
                             квалифицированных сотрудников<br><br>- Безупречное качество работ<br><br>- Технологичное
                             оборудование последнего поколения</p>
                         <div class="services__buttons">
-                            <button class="services__button-price button">Узнать цену</button>
-                            <button class="services__button-services button">Выбрать специалиста</button>
+                            <a href="#price" class="services__button-price button">Узнать цену</a>
+                            <a href="./doctors.html" class="services__button-services button">Выбрать специалиста</a>
                         </div>
                     </div>
                     <div class="services__block-img">
@@ -72,8 +71,8 @@
                             подлежащий эстетической реставрации<br><br>- Индивидуального изготовления и установки
                             разного рода протезов</p>
                         <div class="services__buttons">
-                            <button class="services__button-price button">Узнать цену</button>
-                            <button class="services__button-services button">Выбрать специалиста</button>
+                            <a href="#price" class="services__button-price button">Узнать цену</a>
+                            <a href="./doctors.html" class="services__button-services button">Выбрать специалиста</a>
                         </div>
                     </div>
                     <div class="services__block-img">
@@ -94,8 +93,8 @@
                             прочность зубных единиц<br><br>- Приостанавливается вымывание кальция, влияющее на жизненно
                             важные процессы в костной системе</p>
                         <div class="services__buttons">
-                            <button class="services__button-price button">Узнать цену</button>
-                            <button class="services__button-services button">Выбрать специалиста</button>
+                            <a href="#price" class="services__button-price button">Узнать цену</a>
+                            <a href="./doctors.html" class="services__button-services button">Выбрать специалиста</a>
                         </div>
                     </div>
                     <div class="services__block-img">
@@ -117,8 +116,8 @@
                             окружающих.<br><br>- Вы выглядите моложе, ведь с возрастом зубы теряют свой природный
                             оттенок и становятся более темными, тусклыми.<br><br>- Вы ощущаете уверенность в себе.</p>
                         <div class="services__buttons">
-                            <button class="services__button-price button">Узнать цену</button>
-                            <button class="services__button-services button">Выбрать специалиста</button>
+                            <a href="#price" class="services__button-price button">Узнать цену</a>
+                            <a href="./doctors.html" class="services__button-services button">Выбрать специалиста</a>
                         </div>
                     </div>
                     <div class="services__block-img">
@@ -127,7 +126,7 @@
                 </div>
             </div>
         </section>
-        <section class="price">
+        <section id="price" class="price">
             <div class="price__block">
                 <p id="treatmentTitle" class="price__title button">Лечение</p>
                 <div id="treatmentBlock" class="price__block-price price__block-price_active">
@@ -473,7 +472,7 @@
             </div>
         </section>
     </main>
-    <footer class="footer">
+    <footer id="footer" class="footer">
         <ul class="footer__block">
             <li class="footer__item">
                 <img class="logo" src="../images/Logo.svg" alt="Логотип">
@@ -492,8 +491,8 @@
             </li>
         </ul>
         <div class="footer__item">
-            <img class="footer__img button" src="../images/FooterVK.png" alt="">
-            <img class="footer__img button" src="../images/FooterInst.svg" alt="">
+            <a class="footer__link" href="https://vk.com/dentalen"><img class="footer__img button" src="../images/FooterVK.png" alt=""></a>
+            <a class="footer__link" href="https://instagram.com/dentalen37?igshid=YmMyMTA2M2Y="><img class="footer__img button" src="../images/FooterInst.svg" alt=""></a>
         </div>
     </footer>
     <script src="../script/service.js"></script>

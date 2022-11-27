@@ -20,13 +20,14 @@
 
 @media screen and (max-width: 750px) {
     .footer__item{
-        margin-right: 20px;
+        margin: 30px 20px 0 0;
     }
 } 
 
 @media screen and (max-width: 560px) {
     .footer__item:first-child{
         display: none;
+        margin: 20px 20px 0 0;
     }
 } 
 

@@ -4,13 +4,6 @@
     width: 255px;
     height: 64px;
     border: none;
-    font-family: 'Forum';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 30px;
-    line-height: 33px;
-    text-align: center;
-    color: #FFFFFF;
     margin-top: 75px;
 }
 
@@ -18,8 +11,6 @@
     .header__button{
         width: 170px;
         height: 40px;
-        font-size: 22px;
-        line-height: 22px;
         margin-top: 45px;
     }
 } 
@@ -28,8 +19,6 @@
     .header__button{
         width: 120px;
         height: 30px;
-        font-size: 18px;
-        line-height: 18px;
         margin-top: 25px;
     }
 } 

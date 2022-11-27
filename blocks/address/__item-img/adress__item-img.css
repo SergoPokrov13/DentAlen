@@ -1,11 +1,14 @@
 .adress__item-img{
     width: 52px;
     height: 52px;
-    margin-right: 50px;
     object-fit: cover;
 }
 
-.adress__item-img:last-child{
+.address__link{
+    margin-right: 50px;
+}
+
+.address__link:last-child{
     margin: 0;
 }
 
@@ -13,6 +16,9 @@
     .adress__item-img{
         width: 40px;
         height: 40px;
+    }
+
+    .address__link{
         margin-right: 30px;
     }
 } 
