@@ -1,5 +1,5 @@
 .services__image{
-    max-width: 256px;
+    width: 250px;
     height: 228px;
     border-radius: 5px;
     object-fit: cover;
@@ -7,7 +7,7 @@
 
 @media screen and (max-width: 1010px) {
     .services__image{
-        max-width: 200px;
+        width: 220px;
         height: 170px;
 
     }

@@ -8,7 +8,7 @@
 }
 
 @media screen and (max-width: 590px) {
-    .dentists__block:first-child{
+    .dentists__block.first{
         margin: 0;
     }
 }

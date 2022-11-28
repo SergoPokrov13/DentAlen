@@ -17,7 +17,7 @@
         margin-bottom: 65px;
     }
 }
-@media screen and (max-width: 810px) {
+@media screen and (max-width: 850px) {
     .services__item{
         background-size: 70%;
         width: 100px;

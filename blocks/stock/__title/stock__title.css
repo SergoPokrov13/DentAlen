@@ -1,5 +1,5 @@
 .stock__title{
-    margin: 0 220px 0 0;
+    margin: 0 220px 0 10px;
     font-family: 'Forum';
     font-style: normal;
     font-weight: 400;
@@ -12,7 +12,7 @@
 
 @media screen and (max-width: 1000px) {
     .stock__title{
-        margin: 0 100px 0 0;
+        margin: 0 100px 0 10px;
         font-size: 40px;
         line-height: 45px;
     }
@@ -20,7 +20,7 @@
 
 @media screen and (max-width: 700px) {
     .stock__title{
-        margin: 0 30px 0 0;
+        margin: 0 30px 0 10px;
         font-size: 40px;
         line-height: 45px;
     }
@@ -28,7 +28,7 @@
 
 @media screen and (max-width: 500px) {
     .stock__title{
-        margin: 0 30px 0 0;
+        margin: 0 30px 0 10px;
         font-size: 25px;
         line-height: 27px;
     }

@@ -17,6 +17,7 @@
 
 @media screen and (max-width: 620px) {
     .price__title{
+        width: 310px;
         margin: 20px 0 0;
         height: 40px;
         font-size: 18px;
