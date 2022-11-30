@@ -9,13 +9,11 @@
     margin: -7px 0 0 50px;
 }
 
-@media screen and (max-width: 580px) {
+@media screen and (max-width: 590px) {
     .menu__entry{
         margin: 0;
-        width: 60px;
-        height: 20px;
         position: absolute;
-        bottom: 5px;
-        right: 13px;
+        top: -1000px;
+        right: 10%;
     }
 } 

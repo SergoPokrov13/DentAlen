@@ -1,6 +1,5 @@
 .services{
-    margin-top: 160px;
-    padding-top: 120px;
+    padding-top: 220px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -14,7 +13,7 @@
 
 @media screen and (max-width: 590px) {
     .services{
-        padding: 0;
-        margin-top: 160px;
+        padding-top: 120px;
+        flex-direction: column;
     }
 }

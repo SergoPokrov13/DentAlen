@@ -1,0 +1,80 @@
+.menu__burger{
+    display: none;
+}
+
+@media screen and (max-width: 590px){
+    body.lock{
+        overflow: hidden;
+    }
+    .menu__burger{
+        margin-top: 20px;
+        position: relative;
+        display: block;
+        width: 30px;
+        height: 20px;
+        left: 80%;
+    }
+
+    .span{
+        position: absolute;
+        background-color: rgb(0, 0, 0);
+        width: 100%;
+        height: 2px;
+        top: 9px;
+        left: 0;
+    }
+
+    .span.active{
+        transform: scale(0);
+    }
+
+    .menu__burger::before,
+    .menu__burger::after
+    {
+        content: '';
+        position: absolute;
+        background-color: rgb(0, 0, 0);
+        width: 100%;
+        height: 2px;
+        transition: all 0.3s ease 0.1s;
+    }
+
+    .menu__burger::before{
+        top: 0;
+    }
+
+    .menu__burger::after{
+        bottom: 0;
+    }
+
+    .menu__burger.active::before{
+        transform: rotate(45deg);
+        top: 9px;
+    }
+
+    .menu__burger.active::after{
+        transform: rotate(-45deg);
+        bottom: 9px;
+    }
+
+    .menu__line{
+        position: fixed;
+        width: 100%;
+        height: 85px;
+    }
+
+    .menu__links.active{
+        top: 60%;
+        transition: all 0.3s ease 0s;
+    }
+
+    .menu__entry.active{
+        top: 80%;
+        transition: all 0.3s ease 0s;
+    }
+
+    .menu__line.active{
+        height: 75%;
+        transition: all 0.3s ease 0s;
+    }
+}

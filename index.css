@@ -12,6 +12,7 @@
 @import url(./blocks/menu/__line/menu__line.css);
 @import url(./blocks/menu/__entry/menu__entry.css);
 @import url(./blocks/menu/__number/menu__number.css);
+@import url(./blocks/menu/__burger/menu__burger.css);
 @import url(./blocks/header/header.css);
 @import url(./blocks/header/__link/header__link.css);
 @import url(./blocks/header/__two-column/header__two-column.css);
@@ -156,58 +157,6 @@
 @import url(./blocks/document/__button/document__button.css);
 @import url(./blocks/document/__link/document__link.css);
 @import url(./blocks/document/__icon-doc/document__icon-doc.css);
-
-
-.menu__burger{
-    display: none;
-}
-
-@media screen and (max-width: 590px){
-    .menu{
-        position: relative;
-    }
-    .menu__burger{
-        margin-top: 20px;
-        position: relative;
-        display: block;
-        width: 30px;
-        height: 20px;
-    }
-
-    .span{
-        position: absolute;
-        background-color: rgb(0, 0, 0);
-        width: 100%;
-        height: 2px;
-        top: 9px;
-        left: 0;
-    }
-
-    .menu__burger::before,
-    .menu__burger::after
-    {
-        content: '';
-        position: absolute;
-        background-color: rgb(0, 0, 0);
-        width: 100%;
-        height: 2px;
-    }
-
-    .menu__burger::before{
-        top: 0;
-    }
-
-    .menu__burger::after{
-        bottom: 0;
-    }
-
-    .menu__line{
-        position: fixed;
-        width: 100%;
-        height: 100%;
-    }
-}
-
 
 .slide {
     display: none;
