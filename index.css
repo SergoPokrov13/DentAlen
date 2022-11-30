@@ -138,6 +138,7 @@
 @import url(./blocks/dentists/__block-one/dentists__block-one.css);
 @import url(./blocks/dentists/__text/dentists__text.css);
 @import url(./blocks/dentists/__line/dentists__line.css);
+@import url(./blocks/dentists/__blocks/dentists__blocks.css);
 @import url(./blocks/dentists/__vector-teeth/dentists__vector-teeth.css);
 @import url(./blocks/dentists/__button/dentists__button.css);
 @import url(./blocks/dentists/__block-two/dentists__block-two.css);
@@ -155,6 +156,58 @@
 @import url(./blocks/document/__button/document__button.css);
 @import url(./blocks/document/__link/document__link.css);
 @import url(./blocks/document/__icon-doc/document__icon-doc.css);
+
+
+.menu__burger{
+    display: none;
+}
+
+@media screen and (max-width: 590px){
+    .menu{
+        position: relative;
+    }
+    .menu__burger{
+        margin-top: 20px;
+        position: relative;
+        display: block;
+        width: 30px;
+        height: 20px;
+    }
+
+    .span{
+        position: absolute;
+        background-color: rgb(0, 0, 0);
+        width: 100%;
+        height: 2px;
+        top: 9px;
+        left: 0;
+    }
+
+    .menu__burger::before,
+    .menu__burger::after
+    {
+        content: '';
+        position: absolute;
+        background-color: rgb(0, 0, 0);
+        width: 100%;
+        height: 2px;
+    }
+
+    .menu__burger::before{
+        top: 0;
+    }
+
+    .menu__burger::after{
+        bottom: 0;
+    }
+
+    .menu__line{
+        position: fixed;
+        width: 100%;
+        height: 100%;
+    }
+}
+
 
 .slide {
     display: none;
