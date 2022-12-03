@@ -1,9 +1,9 @@
 .photo__btn-right{
-    background: url(../../../images/DoctorsRight.svg);
+    background: url(../../../images/DoctorsRight.png);
     margin: 0 0 0 30px;
     background-size: cover;
     width: 59px;
-    height: 35px;
+    height: 59px;
     border: none;
     padding: 0;
 }
@@ -12,7 +12,7 @@
     .photo__btn-right{
         margin: 0 0 0 10px;
         width: 30px;
-        height: 16px;
+        height: 30px;
     }
 }
 
@@ -20,6 +20,6 @@
     .photo__btn-right{
         margin: 0 0 0 5px;
         width: 25px;
-        height: 14px;
+        height: 25px;
     }
 }

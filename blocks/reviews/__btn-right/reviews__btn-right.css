@@ -1,8 +1,8 @@
 .reviews__btn-right{
-    background: url(../../../images/DoctorsRight.svg);
+    background: url(../../../images/DoctorsRight.png);
     background-size: cover;
     width: 59px;
-    height: 35px;
+    height: 59px;
     border: none;
     padding: 0;
 }
@@ -10,6 +10,6 @@
 @media screen and (max-width: 500px) {
     .reviews__btn-right{
         width: 30px;
-        height: 16px;
+        height: 30px;
     }
 }
