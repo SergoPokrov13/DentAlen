@@ -20,12 +20,18 @@
 }
 
 #onerow{
-    width: 700px;
+    width: 478px;
 }
 
 #threerows{
     width: 100px;
 }
+
+#fourrows{
+    width: 122px;
+    justify-content: start;
+}
+
 
 @media screen and (max-width: 830px) {
     #onerow{
