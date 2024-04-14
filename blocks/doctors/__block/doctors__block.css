@@ -20,15 +20,18 @@
 }
 
 .doctors__three{
-    background-image: url(../../../images/DoctorK.png);
+    background-image: url(../../../images/DoctorAr.png);
 }
 
 .doctors__for{
-    background-image: url(../../../images/DoctorO.png);
+    background-image: url(../../../images/DoctorK.png);
 }
 
 .doctors__five{
     background-image: url(../../../images/DoctorA.png);
+}
+.doctors__six{
+    background-image: url(../../../images/DoctorO.png);
 }
 
 @media screen and (max-width: 620px) {

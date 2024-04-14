@@ -22,6 +22,7 @@
     bottom: 0;
     cursor: pointer;
     position: absolute;
+    z-index: 10000;
 }
 .slick-next{
     background: url(../../../images/DoctorsRight.png) no-repeat;

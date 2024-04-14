@@ -1,4 +1,6 @@
 .adress__item-last{
-    display: flex;
+    display: grid;
     align-items: flex-end;
+    grid-template-columns: 52px 52px 52px;
+    gap: 20px;
 }
