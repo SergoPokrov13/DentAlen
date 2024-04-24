@@ -185,3 +185,7 @@
         scroll-behavior: smooth;
     }
 }
+
+.none{
+    display: none;
+}

@@ -1,714 +1,914 @@
 <!DOCTYPE html>
 <html lang="ru">
-
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" type="text/css" href="../index.css">
-    <link rel="icon" type="image/x-icon" href="../images/Logo.svg">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" type="text/css" href="../index.css" />
+    <link rel="icon" type="image/x-icon" href="../images/Logo.svg" />
     <title>DentAlen</title>
-</head>
+  </head>
 
-<body class="root">
+  <body class="root">
     <header class="menu">
-        <div class="menu__block">
-            <a href="/index.html"><img class="logo" src="../images/Logo.svg" alt="Логотип"></a>
-            <p class="menu__title">ДентАлен</p>
+      <div class="menu__block">
+        <a href="/index.html"
+          ><img class="logo" src="../images/Logo.svg" alt="Логотип"
+        /></a>
+        <p class="menu__title">ДентАлен</p>
+      </div>
+      <div class="menu__line">
+        <div class="menu__burger">
+          <span class="span"></span>
         </div>
-        <div class="menu__line">
-            <div class="menu__burger">
-                <span class="span"></span>
-            </div>
-            <ul class="menu__links">
-                <li class="menu__item button"><a class="menu__link" href="/index.html">Главная</a></li>
-                <li class="menu__item button"><a class="menu__link menu__link_active" href="./services.html">Услуги</a></li>
-                <li class="menu__item button"><a class="menu__link" href="./clinic.html">О клинике</a></li>
-                <li class="menu__item button"><a class="menu__link" href="./doctors.html">Врачи</a></li>
-                <li class="menu__item button"><a class="menu__link" href="/index.html#reviews">Отзывы</a></li>
-                <li class="menu__item button"><a class="menu__link" href="./document.html">Документы</a></li>
-                <li class="menu__item button"><a class="menu__link" href="/index.html#address">Контакты</a></li>
-            </ul>
-            <div class="menu__entry button">
-                <a href="https://yandex.ru/business/widget/request/company/207068090074" target="_blank" class="menu__number">Записаться</a>
-            </div>
+        <ul class="menu__links">
+          <li class="menu__item button">
+            <a class="menu__link" href="/index.html">Главная</a>
+          </li>
+          <li class="menu__item button">
+            <a class="menu__link menu__link_active" href="./services.html"
+              >Услуги</a
+            >
+          </li>
+          <li class="menu__item button">
+            <a class="menu__link" href="./clinic.html">О клинике</a>
+          </li>
+          <li class="menu__item button">
+            <a class="menu__link" href="./doctors.html">Врачи</a>
+          </li>
+          <li class="menu__item button">
+            <a class="menu__link" href="/index.html#reviews">Отзывы</a>
+          </li>
+          <li class="menu__item button">
+            <a class="menu__link" href="./document.html">Документы</a>
+          </li>
+          <li class="menu__item button">
+            <a class="menu__link" href="/index.html#address">Контакты</a>
+          </li>
+        </ul>
+        <div class="menu__entry button">
+          <a
+            href="https://yandex.ru/business/widget/request/company/207068090074"
+            target="_blank"
+            class="menu__number"
+            >Записаться</a
+          >
         </div>
+      </div>
     </header>
     <main class="main">
-        <section class="services">
-            <div class="services__block-one">
-                <div id="btnTreatment" class="services__item services__item_active treatment button"></div>
-                <div id="btnOrthopedics" class="services__item orthopedics button"></div>
-                <div id="btnHygiene" class="services__item hygiene button"></div>
-                <div id="btnWhitening" class="services__item whitening button"></div>
+      <section class="services">
+        <div class="services__block-one">
+          <div
+            id="btnTreatment"
+            class="services__item services__item_active treatment button"
+          ></div>
+          <div
+            id="btnOrthopedics"
+            class="services__item orthopedics button"
+          ></div>
+          <div id="btnHygiene" class="services__item hygiene button"></div>
+          <div id="btnWhitening" class="services__item whitening button"></div>
+        </div>
+        <div
+          id="treatment"
+          class="services__block-two services__block-two_active"
+        >
+          <h2 class="services__title">Лечение</h2>
+          <div class="services__two-columns">
+            <div class="services__block-info">
+              <div>
+                <p class="services__text">
+                  Лечение зубов представляет собой комплекс процедур по
+                  обезболиванию, санации, укреплению и восстановлению их
+                  поврежденных участков. Может включать в себя терапевтические,
+                  хирургические, ортодонтические, ортопедические методы лечения.
+                </p>
+                <p class="services__subtitle">
+                  В чем преимущества лечения зубов?
+                </p>
+                <p class="services__text">
+                  - Большой выбор стоматологических услуг<br /><br />- Штат
+                  квалифицированных сотрудников<br /><br />- Безупречное
+                  качество работ<br /><br />- Технологичное оборудование
+                  последнего поколения
+                </p>
+              </div>
+              <div class="services__buttons">
+                <a href="#price" class="services__button-price button"
+                  >Узнать цену</a
+                >
+                <a
+                  href="./doctors.html"
+                  class="services__button-services button"
+                  >Выбрать специалиста</a
+                >
+              </div>
             </div>
-            <div id="treatment" class="services__block-two services__block-two_active">
-                <h2 class="services__title">Лечение</h2>
-                <div class="services__two-columns">
-                    <div class="services__block-info">
-                        <div>
-                        <p class="services__text">Лечение зубов представляет собой комплекс процедур по обезболиванию,
-                            санации, укреплению и восстановлению их поврежденных участков. Может включать в себя
-                            терапевтические, хирургические, ортодонтические, ортопедические методы лечения.</p>
-                        <p class="services__subtitle">В чем преимущества лечения зубов?</p>
-                        <p class="services__text">- Большой выбор стоматологических услуг<br><br>- Штат
-                            квалифицированных сотрудников<br><br>- Безупречное качество работ<br><br>- Технологичное
-                            оборудование последнего поколения</p>
-                        </div>
-                        <div class="services__buttons">
-                            <a href="#price" class="services__button-price button">Узнать цену</a>
-                            <a href="./doctors.html" class="services__button-services button">Выбрать специалиста</a>
-                        </div>
-                    </div>
-                    <div class="services__block-img">
-                        <img class="services__image" src="../images/Treatment.png" alt="Фото лечение">
-                    </div>
-                </div>
+            <div class="services__block-img">
+              <img
+                class="services__image"
+                src="../images/Treatment.png"
+                alt="Фото лечение"
+              />
             </div>
-            <div id="orthopedics" class="services__block-two">
-                <h2 class="services__title">Ортопедия</h2>
-                <div class="services__two-columns">
-                    <div class="services__block-info">
-                        <div>
-                        <p class="services__text">Ортопедия в стоматологии – это раздел медицины, который занимается
-                            восстановлением зубов с использованием всех современных методик протезирования. Не
-                            удивительно, что стоматолог-ортопед в народе больше известен, как протезист.</p>
-                        <p class="services__subtitle">В чем преимущества ортопедии зубов?</p>
-                        <p class="services__text">- Восстановления костных тканей и эмали с целью сохранения живых
-                            натуральных корней и нервных каналов<br><br>- Установки защитных коронок на зуб не
-                            подлежащий эстетической реставрации<br><br>- Индивидуального изготовления и установки
-                            разного рода протезов</p>
-                        </div>
-                        <div class="services__buttons">
-                            <a href="#price" class="services__button-price button">Узнать цену</a>
-                            <a href="./doctors.html" class="services__button-services button">Выбрать специалиста</a>
-                        </div>
-                    </div>
-                    <div class="services__block-img">
-                        <img class="services__image" src="../images/OrthopediksImage.png" alt="Фото Ортопедия">
-                    </div>
-                </div>
+          </div>
+        </div>
+        <div id="orthopedics" class="services__block-two">
+          <h2 class="services__title">Ортопедия</h2>
+          <div class="services__two-columns">
+            <div class="services__block-info">
+              <div>
+                <p class="services__text">
+                  Ортопедия в стоматологии – это раздел медицины, который
+                  занимается восстановлением зубов с использованием всех
+                  современных методик протезирования. Не удивительно, что
+                  стоматолог-ортопед в народе больше известен, как протезист.
+                </p>
+                <p class="services__subtitle">
+                  В чем преимущества ортопедии зубов?
+                </p>
+                <p class="services__text">
+                  - Восстановления костных тканей и эмали с целью сохранения
+                  живых натуральных корней и нервных каналов<br /><br />-
+                  Установки защитных коронок на зуб не подлежащий эстетической
+                  реставрации<br /><br />- Индивидуального изготовления и
+                  установки разного рода протезов
+                </p>
+              </div>
+              <div class="services__buttons">
+                <a href="#price" class="services__button-price button"
+                  >Узнать цену</a
+                >
+                <a
+                  href="./doctors.html"
+                  class="services__button-services button"
+                  >Выбрать специалиста</a
+                >
+              </div>
             </div>
-            <div id="hygiene" class="services__block-two">
-                <h2 class="services__title">Гигиена</h2>
-                <div class="services__two-columns">
-                    <div class="services__block-info">
-                        <div>
-                        <p class="services__text">Гигиена полости рта — это комплекс мер, направленных на удаление
-                            зубных отложений с целью профилактики стоматологических заболеваний. От качества ее
-                            проведения зависит не только здоровье зубов, но и состояние десен, слизистой полости рта и
-                            даже органов желудочно-кишечного тракта.</p>
-                        <p class="services__subtitle">В чем преимущества гигиены зубов?</p>
-                        <p class="services__text">- Нормализуется уровень фтора в организме<br><br>- Повышается
-                            прочность зубных единиц<br><br>- Приостанавливается вымывание кальция, влияющее на жизненно
-                            важные процессы в костной системе</p>
-                        </div>
-                        <div class="services__buttons">
-                            <a href="#price" class="services__button-price button">Узнать цену</a>
-                            <a href="./doctors.html" class="services__button-services button">Выбрать специалиста</a>
-                        </div>
-                    </div>
-                    <div class="services__block-img">
-                        <img class="services__image" src="../images/HyieneImage.png" alt="фото Гигиена">
-                    </div>
-                </div>
+            <div class="services__block-img">
+              <img
+                class="services__image"
+                src="../images/OrthopediksImage.png"
+                alt="Фото Ортопедия"
+              />
             </div>
-            <div id="whitening" class="services__block-two">
-                <h2 class="services__title">Отбеливание</h2>
-                <div class="services__two-columns">
-                    <div class="services__block-info">
-                        <div>
-                        <p class="services__text">Широкая искренняя улыбка очень нужна в нашей повседневной обыденной
-                            жизни. Всегда гораздо легче взаимодействовать с доброжелательными людьми, которые искренне
-                            улыбаются. У нас создается ощущение, что они открыты для общения и дружелюбно настроены по
-                            отношению к нам. Широкая красивая улыбка в наше время – символ успеха и счастливой жизни.
-                        </p>
-                        <p class="services__subtitle">В чем преимущества отбеливания зубов?</p>
-                        <p class="services__text">- Ваша улыбка становится более яркой и привлекательной для
-                            окружающих.<br><br>- Вы выглядите моложе, ведь с возрастом зубы теряют свой природный
-                            оттенок и становятся более темными, тусклыми.<br><br>- Вы ощущаете уверенность в себе.</p>
-                        </div>
-                        <div class="services__buttons">
-                            <a href="#price" class="services__button-price button">Узнать цену</a>
-                            <a href="./doctors.html" class="services__button-services button">Выбрать специалиста</a>
-                        </div>
-                    </div>
-                    <div class="services__block-img">
-                        <img class="services__image" src="../images/WhiteningImage.png" alt="Фото отбеливание">
-                    </div>
-                </div>
+          </div>
+        </div>
+        <div id="hygiene" class="services__block-two">
+          <h2 class="services__title">Гигиена</h2>
+          <div class="services__two-columns">
+            <div class="services__block-info">
+              <div>
+                <p class="services__text">
+                  Гигиена полости рта — это комплекс мер, направленных на
+                  удаление зубных отложений с целью профилактики
+                  стоматологических заболеваний. От качества ее проведения
+                  зависит не только здоровье зубов, но и состояние десен,
+                  слизистой полости рта и даже органов желудочно-кишечного
+                  тракта.
+                </p>
+                <p class="services__subtitle">
+                  В чем преимущества гигиены зубов?
+                </p>
+                <p class="services__text">
+                  - Нормализуется уровень фтора в организме<br /><br />-
+                  Повышается прочность зубных единиц<br /><br />-
+                  Приостанавливается вымывание кальция, влияющее на жизненно
+                  важные процессы в костной системе
+                </p>
+              </div>
+              <div class="services__buttons">
+                <a href="#price" class="services__button-price button"
+                  >Узнать цену</a
+                >
+                <a
+                  href="./doctors.html"
+                  class="services__button-services button"
+                  >Выбрать специалиста</a
+                >
+              </div>
             </div>
-        </section>
-        <section id="price" class="price">
-            <div class="price__block">
-                <p id="treatmentTitle" class="price__title button">Лечение</p>
-                <div id="treatmentBlock" class="price__block-price price__block-price_active">
-                    <div class="price__rows">
-                        <p id="onerow" class="price__subtitle">Название услуги</p>
-                        <p id="threerows" class="price__subtitle">Цена руб.</p>
-                        <p id="threerows" class="price__subtitle">Код</p>
-                        <p id="fourrows" class="price__subtitle">Кодировка</p>
-                    </div>
-                    <div class="price__rows">
-                        <p id="onerow" class="price__text">Консультация ( первичный осмотр, составление плана лечения, санитарный комплекс)</p>
-                        <p id="threerows" class="price__text">бесплатно</p>
-                        <p id="threerows" class="price__text">1001</p>
-                        <p id="fourrows" class="price__text">В01.065.001</p>
-                    </div>
-                    <div class="price__rows">
-                        <p id="onerow" class="price__text">Санитарный комплекс ( повторный прием)</p>
-                        <p id="threerows" class="price__text">бесплатно</p>
-                        <p id="threerows" class="price__text">1002</p>
-                        <p id="fourrows" class="price__text">В01.065.002</p>
-                    </div>
-                    <div class="price__rows">
-                        <p id="onerow" class="price__subtitle">Анестезия</p>
-                        <p id="threerows" class="price__subtitle"></p>
-                        <p id="threerows" class="price__subtitle"></p>
-                        <p id="fourrows" class="price__subtitle"></p>
-                    </div>
-                    <div class="price__rows">
-                        <p id="onerow" class="price__text">Анестезия аппликационная</p>
-                        <p id="threerows" class="price__text">100</p>
-                        <p id="threerows" class="price__text">1003</p>
-                        <p id="fourrows" class="price__text">В01.003.004.00
-                            4</p>
-                    </div>
-                    <div class="price__rows">
-                        <p id="onerow" class="price__text">Анестезия проводниковая, инфильтрационная
-                            артикаином</p>
-                        <p id="threerows" class="price__text">500</p>
-                        <p id="threerows" class="price__text">1004</p>
-                        <p id="fourrows" class="price__text">В01.003.004.00
-                            2
-                            В01.003.004.00
-                            5</p>
-                    </div>
-                    <div class="price__rows">
-                        <p id="onerow" class="price__text">Анестезия дополнительная</p>
-                        <p id="threerows" class="price__text">250</p>
-                        <p id="threerows" class="price__text">1005</p>
-                        <p id="fourrows" class="price__text">В01.003.004.00
-                            2
-                            В01.003.004.00
-                            5</p>
-                    </div>
-                    <div class="price__rows">
-                        <p id="onerow" class="price__subtitle">Терапия</p>
-                        <p id="threerows" class="price__subtitle"></p>
-                        <p id="threerows" class="price__subtitle"></p>
-                        <p id="fourrows" class="price__subtitle"></p>
-                    </div>
-                    <div class="price__rows">
-                        <p id="onerow" class="price__text">Пломба из материала светового отверждения Estelite
-                            Sigma, Gradia, Ceram X</p>
-                        <p id="threerows" class="price__text">3500</p>
-                        <p id="threerows" class="price__text">2001</p>
-                        <p id="fourrows" class="price__text">А16.07.002</p>
-                    </div>
-                    <div class="price__rows">
-                        <p id="onerow" class="price__text">+ дополнительная поверхность из Estelite Sigma, Gradia, Ceram X</p>
-                        <p id="threerows" class="price__text">1400</p>
-                        <p id="threerows" class="price__text">2002</p>
-                        <p id="fourrows" class="price__text">А16.07.002</p>
-                    </div>
-                    <div class="price__rows">
-                        <p id="onerow" class="price__text">Пломба из материала Palfique Estelite Paste</p>
-                        <p id="threerows" class="price__text">2500</p>
-                        <p id="threerows" class="price__text">2003</p>
-                        <p id="fourrows" class="price__text">А16.07.002</p>
-                    </div>
-                    <div class="price__rows">
-                        <p id="onerow" class="price__text">Пломба из жидкотекучего материала</p>
-                        <p id="threerows" class="price__text">1500</p>
-                        <p id="threerows" class="price__text">2004</p>
-                        <p id="fourrows" class="price__text">А16.07.002</p>
-                    </div>
-                    <div class="price__rows">
-                        <p id="onerow" class="price__text">Эстетическая реставрация коронки зуба (виниры композитные)</p>
-                        <p id="threerows" class="price__text">5500</p>
-                        <p id="threerows" class="price__text">2005</p>
-                        <p id="fourrows" class="price__text">А16.07.003</p>
-                    </div>
-                    <div class="price__rows">
-                        <p id="onerow" class="price__text">Восстановление культи зуба</p>
-                        <p id="threerows" class="price__text">2300</p>
-                        <p id="threerows" class="price__text">2006</p>
-                        <p id="fourrows" class="price__text">А16.07.002</p>
-                    </div>
-                    <div class="price__rows">
-                        <p id="onerow" class="price__text">Титановый штифт с фиксацией</p>
-                        <p id="threerows" class="price__text">1000</p>
-                        <p id="threerows" class="price__text">2007</p>
-                        <p id="fourrows" class="price__text">А16.07.093</p>
-                    </div>
-                    <div class="price__rows">
-                        <p id="onerow" class="price__text">Стекловолоконный штифт с фиксацией</p>
-                        <p id="threerows" class="price__text">1000</p>
-                        <p id="threerows" class="price__text">2008</p>
-                        <p id="fourrows" class="price__text">А16.07.093</p>
-                    </div>
-                    <div class="price__rows">
-                        <p id="onerow" class="price__text">Герметизация фиссур жидкотекучим композитом</p>
-                        <p id="threerows" class="price__text">1500</p>
-                        <p id="threerows" class="price__text">2009</p>
-                        <p id="fourrows" class="price__text">А16.07.057</p>
-                    </div>
-                    <div class="price__rows">
-                        <p id="onerow" class="price__text">Лечебная прокладка (при глубоком кариесе)</p>
-                        <p id="threerows" class="price__text">300</p>
-                        <p id="threerows" class="price__text">2010</p>
-                        <p id="fourrows" class="price__text">А16.07.002</p>
-                    </div>
-                    <div class="price__rows">
-                        <p id="onerow" class="price__text">Изолирующая прокладка</p>
-                        <p id="threerows" class="price__text">350</p>
-                        <p id="threerows" class="price__text">2011</p>
-                        <p id="fourrows" class="price__text">А16.07.002</p>
-                    </div>
-                    <div class="price__rows">
-                        <p id="onerow" class="price__text">Инструментальная и медикаментозная обработка
-                            одного канала</p>
-                        <p id="threerows" class="price__text">800</p>
-                        <p id="threerows" class="price__text">2012</p>
-                        <p id="fourrows" class="price__text">А16.07.030</p>
-                    </div>
-                    <div class="price__rows">
-                        <p id="onerow" class="price__text">Наложение девитализирующей пасты с временной
-                            пломбой</p>
-                        <p id="threerows" class="price__text">500</p>
-                        <p id="threerows" class="price__text">2013</p>
-                        <p id="fourrows" class="price__text">А11.07.027
-                            А16.07.002.009</p>
-                    </div>
-                    <div class="price__rows">
-                        <p id="onerow" class="price__text">Временное пломбирование корневого канала
-                            лечебной пастой
-                            (1 канал)</p>
-                        <p id="threerows" class="price__text">500</p>
-                        <p id="threerows" class="price__text">2014</p>
-                        <p id="fourrows" class="price__text">А16.07.030.003</p>
-                    </div>
-                    <div class="price__rows">
-                        <p id="onerow" class="price__text">Распломбировка корневого канала ранее леченного
-                            пастой</p>
-                        <p id="threerows" class="price__text">500</p>
-                        <p id="threerows" class="price__text">2015</p>
-                        <p id="fourrows" class="price__text">А16.07.082.001</p>
-                    </div>
-                    <div class="price__rows">
-                        <p id="onerow" class="price__text">Распломбировка корневого канала ранее леченного фосфатцементом/резорцин-формальдегидным
-                            методом, гуттаперча</p>
-                        <p id="threerows" class="price__text">700</p>
-                        <p id="threerows" class="price__text">2016</p>
-                        <p id="fourrows" class="price__text">А16.07.082.002</p>
-                    </div>
-                    <div class="price__rows">
-                        <p id="onerow" class="price__text">Наложение временной пломбы</p>
-                        <p id="threerows" class="price__text">250</p>
-                        <p id="threerows" class="price__text">2017</p>
-                        <p id="fourrows" class="price__text">А16.07.002.009</p>
-                    </div>
-                    <div class="price__rows">
-                        <p id="onerow" class="price__text">Извлечение из корневого канала инородного тела</p>
-                        <p id="threerows" class="price__text">500</p>
-                        <p id="threerows" class="price__text">2018</p>
-                        <p id="fourrows" class="price__text">А16.07.094</p>
-                    </div>
-                    <div class="price__rows">
-                        <p id="onerow" class="price__text">Избирательное полирование зуба</p>
-                        <p id="threerows" class="price__text">250</p>
-                        <p id="threerows" class="price__text">2019</p>
-                        <p id="fourrows" class="price__text">А16.07.025.001</p>
-                    </div>
-                    <div class="price__rows">
-                        <p id="onerow" class="price__text">Вскрытие коронки зуба из металла,
-                            металлокерамики</p>
-                        <p id="threerows" class="price__text">300</p>
-                        <p id="threerows" class="price__text">2020</p>
-                        <p id="fourrows" class="price__text">А16.07.092</p>
-                    </div>
-                    <div class="price__rows">
-                        <p id="onerow" class="price__text">Постоянное пломбирование корневого канала
-                            гуттаперчей (1 канал)</p>
-                        <p id="threerows" class="price__text">900</p>
-                        <p id="threerows" class="price__text">2021</p>
-                        <p id="fourrows" class="price__text">А16.07.008.002</p>
-                    </div>
-                    <div class="price__rows">
-                        <p id="onerow" class="price__text">+дополнительная поверхность из Palfique Estelite
-                            Paste</p>
-                        <p id="threerows" class="price__text">900</p>
-                        <p id="threerows" class="price__text">2022</p>
-                        <p id="fourrows" class="price__text">А16.07.002</p>
-                    </div>
-                    <div class="price__rows">
-                        <p id="onerow" class="price__text">Пломба из материала Omnichroma, Blocker</p>
-                        <p id="threerows" class="price__text">3700</p>
-                        <p id="threerows" class="price__text">2023</p>
-                        <p id="fourrows" class="price__text">А16.07.002</p>
-                    </div>
-                    <div class="price__rows">
-                        <p id="onerow" class="price__text">Экстирпация пульпы</p>
-                        <p id="threerows" class="price__text">150</p>
-                        <p id="threerows" class="price__text">2024</p>
-                        <p id="fourrows" class="price__text">А16.07.010</p>
-                    </div>
-                </div>
+            <div class="services__block-img">
+              <img
+                class="services__image"
+                src="../images/HyieneImage.png"
+                alt="фото Гигиена"
+              />
             </div>
-            <div class="price__block">
-                <p id="orthopedicsTitle" class="price__title button">Ортопедия</p>
-                <div id="orthopedicsBlock" class="price__block-price">
-                    <div class="price__rows">
-                        <p id="onerow" class="price__subtitle">Название услуги</p>
-                        <p id="threerows" class="price__subtitle">Цена руб.</p>
-                        <p id="threerows" class="price__subtitle">Код</p>
-                        <p id="fourrows" class="price__subtitle">Кодировка</p>
-                    </div>
-                    <div class="price__rows">
-                        <p id="onerow" class="price__text">Консультация ( первичный осмотр, составление плана лечения, санитарный комплекс)</p>
-                        <p id="threerows" class="price__text">бесплатно</p>
-                        <p id="threerows" class="price__text">1001</p>
-                        <p id="fourrows" class="price__text">В01.065.001</p>
-                    </div>
-                    <div class="price__rows">
-                        <p id="onerow" class="price__text">Санитарный комплекс ( повторный прием)</p>
-                        <p id="threerows" class="price__text">бесплатно</p>
-                        <p id="threerows" class="price__text">1002</p>
-                        <p id="fourrows" class="price__text">В01.065.002</p>
-                    </div>
-                    <div class="price__rows">
-                        <p id="onerow" class="price__subtitle">Анестезия</p>
-                        <p id="threerows" class="price__subtitle"></p>
-                        <p id="threerows" class="price__subtitle"></p>
-                        <p id="fourrows" class="price__subtitle"></p>
-                    </div>
-                    <div class="price__rows">
-                        <p id="onerow" class="price__text">Анестезия аппликационная</p>
-                        <p id="threerows" class="price__text">100</p>
-                        <p id="threerows" class="price__text">1003</p>
-                        <p id="fourrows" class="price__text">В01.003.004.00
-                            4</p>
-                    </div>
-                    <div class="price__rows">
-                        <p id="onerow" class="price__text">Анестезия проводниковая, инфильтрационная
-                            артикаином</p>
-                        <p id="threerows" class="price__text">500</p>
-                        <p id="threerows" class="price__text">1004</p>
-                        <p id="fourrows" class="price__text">В01.003.004.00
-                            2
-                            В01.003.004.00
-                            5</p>
-                    </div>
-                    <div class="price__rows">
-                        <p id="onerow" class="price__text">Анестезия дополнительная</p>
-                        <p id="threerows" class="price__text">250</p>
-                        <p id="threerows" class="price__text">1005</p>
-                        <p id="fourrows" class="price__text">В01.003.004.00
-                            2
-                            В01.003.004.00
-                            5</p>
-                    </div>
-                    <div class="price__rows">
-                        <p id="onerow" class="price__subtitle">Съемные протезы:</p>
-                        <p id="threerows" class="price__subtitle"></p>
-                        <p id="threerows" class="price__subtitle"></p>
-                        <p id="fourrows" class="price__subtitle"></p>
-                        
-                    </div>
-                    <div class="price__rows">
-                        <p id="onerow" class="price__text">Полносъемный (частичносъемный) протез с импортной гарнитурой</p>
-                        <p id="threerows" class="price__text">17500</p>
-                        <p id="threerows" class="price__text">3001</p>
-                        <p id="fourrows" class="price__text">А16.07.023
-                            А02.07.010.001</p>
-                    </div>
-                    <div class="price__rows">
-                        <p id="onerow" class="price__text">Съемный протез методом литья Quattro Ti</p>
-                        <p id="threerows" class="price__text">43000</p>
-                        <p id="threerows" class="price__text">3002</p>
-                        <p id="fourrows" class="price__text">А16.07.035
-                            А02.07.010.001</p>
-                    </div>
-                    <div class="price__rows">
-                        <p id="onerow" class="price__text">Бюгельный протез односторонний на кламмерах</p>
-                        <p id="threerows" class="price__text">26000</p>
-                        <p id="threerows" class="price__text">3003</p>
-                        <p id="fourrows" class="price__text">А16.07.036
-                            А02.07.010.001</p>
-                    </div>
-                    <div class="price__rows">
-                        <p id="onerow" class="price__text">Микропротез, иммедиат протез (косметическая
-                            пластинка)</p>
-                        <p id="threerows" class="price__text">11000</p>
-                        <p id="threerows" class="price__text">3004</p>
-                        <p id="fourrows" class="price__text">А16.07.035
-                            А02.07.010.001</p>
-                    </div>
-                    <div class="price__rows">
-                        <p id="onerow" class="price__text">Cъемный протез на основе термопласта</p>
-                        <p id="threerows" class="price__text">42000</p>
-                        <p id="threerows" class="price__text">3005</p>
-                        <p id="fourrows" class="price__text">А16.07.035
-                            А02.07.010.001</p>
-                    </div>
-                    <div class="price__rows">
-                        <p id="onerow" class="price__text">Бюгельный протез</p>
-                        <p id="threerows" class="price__text">40000</p>
-                        <p id="threerows" class="price__text">3006</p>
-                        <p id="fourrows" class="price__text">А16.07.036
-                            А02.07.010.001</p>
-                    </div>
-                    <div class="price__rows">
-                        <p id="onerow" class="price__text">Съемный протез на основе термопласта до трех зубов</p>
-                        <p id="threerows" class="price__text">23000</p>
-                        <p id="threerows" class="price__text">3007</p>
-                        <p id="fourrows" class="price__text">А16.07.035
-                            А02.07.010.001</p>
-                    </div>
-                    <div class="price__rows">
-                        <p id="onerow" class="price__text">Съемный протез методом литья Quattro Ti до трех зубов</p>
-                        <p id="threerows" class="price__text">23000</p>
-                        <p id="threerows" class="price__text">3008</p>
-                        <p id="fourrows" class="price__text">А16.07.035
-                            А02.07.010.001</p>
-                    </div>
-                    <div class="price__rows">
-                        <p id="onerow" class="price__subtitle">Несъемные протезы:</p>
-                        <p id="threerows" class="price__subtitle"></p>
-                        <p id="threerows" class="price__subtitle"></p>
-                        <p id="fourrows" class="price__subtitle"></p>
-                    </div>
-                    <div class="price__rows">
-                        <p id="onerow" class="price__text">Безметалловая коронка на основании оксида циркония</p>
-                        <p id="threerows" class="price__text">17500</p>
-                        <p id="threerows" class="price__text">3009</p>
-                        <p id="fourrows" class="price__text">А16.07.004
-                            А02.07.010.001</p>
-                    </div>
-                    <div class="price__rows">
-                        <p id="onerow" class="price__text">Металлокерамическая коронка</p>
-                        <p id="threerows" class="price__text">10500</p>
-                        <p id="threerows" class="price__text">3010</p>
-                        <p id="fourrows" class="price__text">А16.07.004
-                            А02.07.010.001</p>
-                    </div>
-                    <div class="price__rows">
-                        <p id="onerow" class="price__text">Временная коронка прямым методом</p>
-                        <p id="threerows" class="price__text">1500</p>
-                        <p id="threerows" class="price__text">3011</p>
-                        <p id="fourrows" class="price__text">А16.07.004
-                            А02.07.010.001</p>
-                    </div>
-                    <div class="price__rows">
-                        <p id="onerow" class="price__text">Цельнолитая коронка<br>Цельнолитая коронка с напылением</p>
-                        <p id="threerows" class="price__text">6000<br>6500</p>
-                        <p id="threerows" class="price__text">3012<br>3013</p>
-                        <p id="fourrows" class="price__text">А16.07.004
-                            А02.07.010.001</p>
-                    </div>
-                    <div class="price__rows">
-                        <p id="onerow" class="price__text">Штифтовая вкладка<br>Штифтовая вкладка разборная</p>
-                        <p id="threerows" class="price__text">5200<br>5700</p>
-                        <p id="threerows" class="price__text">3014<br>3015</p>
-                        <p id="fourrows" class="price__text">А16.07.033
-                            А02.07.010.001</p>
-                    </div>
-                    
-                    <div class="price__rows">
-                        <p id="onerow" class="price__text">Снятие металлической коронки (1 единица)</p>
-                        <p id="threerows" class="price__text">500</p>
-                        <p id="threerows" class="price__text">3016</p>
-                        <p id="fourrows" class="price__text">А16.07.053</p>
-                    </div>
-                    <div class="price__rows">
-                        <p id="onerow" class="price__text">Снятие металлокерамической, цельнолитой коронки (1 единица)</p>
-                        <p id="threerows" class="price__text">700</p>
-                        <p id="threerows" class="price__text">3017</p>
-                        <p id="fourrows" class="price__text">А16.07.053</p>
-                    </div>
-                    <div class="price__rows">
-                        <p id="onerow" class="price__text">Укрепление коронки FUJI (1 единица)</p>
-                        <p id="threerows" class="price__text">700</p>
-                        <p id="threerows" class="price__text">3018</p>
-                        <p id="fourrows" class="price__text">А16.07.004</p>
-                    </div>
-                    <div class="price__rows">
-                        <p id="onerow" class="price__text">Снятие оттиска с одной челюсти (альгинатной массой)</p>
-                        <p id="threerows" class="price__text">700</p>
-                        <p id="threerows" class="price__text">3019</p>
-                        <p id="fourrows" class="price__text">А02.07.010.001</p>
-                    </div>
-                    <div class="price__rows">
-                        <p id="onerow" class="price__text">Снятие оттиска с одной челюсти (двухслойной массой)</p>
-                        <p id="threerows" class="price__text">1000</p>
-                        <p id="threerows" class="price__text">3020</p>
-                        <p id="fourrows" class="price__text">А02.07.010.001</p>
-                    </div>
-                    <div class="price__rows">
-                        <p id="onerow" class="price__text">Починка съемных протезов</p>
-                        <p id="threerows" class="price__text">4500</p>
-                        <p id="threerows" class="price__text">3021</p>
-                        <p id="fourrows" class="price__text">А23.07.002.037</p>
-                    </div>
-                    <div class="price__rows">
-                        <p id="onerow" class="price__text">Приварка одного зуба</p>
-                        <p id="threerows" class="price__text">3500</p>
-                        <p id="threerows" class="price__text">3022</p>
-                        <p id="fourrows" class="price__text">А23.07.002.036</p>
-                    </div>
-                    <div class="price__rows">
-                        <p id="onerow" class="price__text">Приварка последующих зубов</p>
-                        <p id="threerows" class="price__text">2500</p>
-                        <p id="threerows" class="price__text">3023</p>
-                        <p id="fourrows" class="price__text">А23.07.002.036</p>
-                    </div>
-                    <div class="price__rows">
-                        <p id="onerow" class="price__text">Перебазировка протеза</p>
-                        <p id="threerows" class="price__text">9500</p>
-                        <p id="threerows" class="price__text">3024</p>
-                        <p id="fourrows" class="price__text">А23.07.002.037</p>
-                    </div>
-                    <div class="price__rows">
-                        <p id="onerow" class="price__text">Восковое моделирование/wax up</p>
-                        <p id="threerows" class="price__text">1500</p>
-                        <p id="threerows" class="price__text">3025</p>
-                        <p id="fourrows" class="price__text">А02.07.006</p>
-                    </div>
-                    <div class="price__rows">
-                        <p id="onerow" class="price__text">Индивидуальная ложка</p>
-                        <p id="threerows" class="price__text">3500</p>
-                        <p id="threerows" class="price__text">3026</p>
-                        <p id="fourrows" class="price__text">А02.07.010.001
-                            А02.07.010
-                            А16.07.023</p>
-                    </div>
-                    <div class="price__rows">
-                        <p id="onerow" class="price__text">Винир Е.max</p>
-                        <p id="threerows" class="price__text">18000</p>
-                        <p id="threerows" class="price__text">3027</p>
-                        <p id="fourrows" class="price__text">А16.07.004
-                            А02.07.010.001</p>
-                    </div>
-                    <div class="price__rows">
-                        <p id="onerow" class="price__text">Коронка временная фрезерованная</p>
-                        <p id="threerows" class="price__text">4000</p>
-                        <p id="threerows" class="price__text">3028</p>
-                        <p id="fourrows" class="price__text">А16.07.004
-                            А16.07.006</p>
-                    </div>
-                    <div class="price__rows">
-                        <p id="onerow" class="price__text">Пластмассовая коронка</p>
-                        <p id="threerows" class="price__text">5000</p>
-                        <p id="threerows" class="price__text">3029</p>
-                        <p id="fourrows" class="price__text">А16.07.004</p>
-                    </div>
-                    <div class="price__rows">
-                        <p id="onerow" class="price__text">Повторное изготовление временной коронки
-                            прямым методом</p>
-                        <p id="threerows" class="price__text">500</p>
-                        <p id="threerows" class="price__text">3030</p>
-                        <p id="fourrows" class="price__text">А16.07.004
-                            А02.07.010.001</p>
-                    </div>
-                    <div class="price__rows">
-                        <p id="onerow" class="price__text">Прикусной шаблон</p>
-                        <p id="threerows" class="price__text">1800</p>
-                        <p id="threerows" class="price__text">3031</p>
-                        <p id="fourrows" class="price__text">А02.07.006</p>
-                    </div>
-                </div>
+          </div>
+        </div>
+        <div id="whitening" class="services__block-two">
+          <h2 class="services__title">Отбеливание</h2>
+          <div class="services__two-columns">
+            <div class="services__block-info">
+              <div>
+                <p class="services__text">
+                  Широкая искренняя улыбка очень нужна в нашей повседневной
+                  обыденной жизни. Всегда гораздо легче взаимодействовать с
+                  доброжелательными людьми, которые искренне улыбаются. У нас
+                  создается ощущение, что они открыты для общения и дружелюбно
+                  настроены по отношению к нам. Широкая красивая улыбка в наше
+                  время – символ успеха и счастливой жизни.
+                </p>
+                <p class="services__subtitle">
+                  В чем преимущества отбеливания зубов?
+                </p>
+                <p class="services__text">
+                  - Ваша улыбка становится более яркой и привлекательной для
+                  окружающих.<br /><br />- Вы выглядите моложе, ведь с возрастом
+                  зубы теряют свой природный оттенок и становятся более темными,
+                  тусклыми.<br /><br />- Вы ощущаете уверенность в себе.
+                </p>
+              </div>
+              <div class="services__buttons">
+                <a href="#price" class="services__button-price button"
+                  >Узнать цену</a
+                >
+                <a
+                  href="./doctors.html"
+                  class="services__button-services button"
+                  >Выбрать специалиста</a
+                >
+              </div>
             </div>
-            <div class="price__block">
-                <p id="hygAndWhitTitle" class="price__title button">Гигиена и Отбеливание</p>
-                <div id="hygAndWhitBlock" class="price__block-price">
-                    <div class="price__rows">
-                        <p id="onerow" class="price__subtitle">Название услуги</p>
-                        <p id="threerows" class="price__subtitle">Цена руб.</p>
-                        <p id="threerows" class="price__subtitle">Код</p>
-                        <p id="fourrows" class="price__subtitle">Кодировка</p>
-                    </div>
-                    <div class="price__rows">
-                        <p id="onerow" class="price__text">Комплекс ( аэрфлоу, полировка)</p>
-                        <p id="threerows" class="price__text">3500</p>
-                        <p id="threerows" class="price__text">4001</p>
-                        <p id="fourrows" class="price__text">А16.07.051</p>
-                    </div>
-                    <div class="price__rows">
-                        <p id="onerow" class="price__text">Удаление мягкого и пигментированного налета (за 1 зуб)</p>
-                        <p id="threerows" class="price__text">250</p>
-                        <p id="threerows" class="price__text">4002</p>
-                        <p id="fourrows" class="price__text">А16.07.51</p>
-                    </div>
-                    <div class="price__rows">
-                        <p id="onerow" class="price__text">Снятие зубных отложений с использованием наконечника (за 1 зуб)</p>
-                        <p id="threerows" class="price__text">250</p>
-                        <p id="threerows" class="price__text">4003</p>
-                        <p id="fourrows" class="price__text">А22.07.002</p>
-                    </div>
-                    <div class="price__rows">
-                        <p id="onerow" class="price__text">Комплекс (ультразвук, аэрфлоу, полировка)</p>
-                        <p id="threerows" class="price__text">4000</p>
-                        <p id="threerows" class="price__text">4004</p>
-                        <p id="fourrows" class="price__text">А16.07.051</p>
-                    </div>
-                    <div class="price__rows">
-                        <p id="onerow" class="price__text">Комплекс (полировка, фторирование)</p>
-                        <p id="threerows" class="price__text">2000</p>
-                        <p id="threerows" class="price__text">4005</p>
-                        <p id="fourrows" class="price__text">А16.07.051</p>
-                    </div>
-                    <div class="price__rows">
-                        <p id="onerow" class="price__text">Обработка фторсодержаним препаратом (за 1 зуб)</p>
-                        <p id="threerows" class="price__text">200</p>
-                        <p id="threerows" class="price__text">4006</p>
-                        <p id="fourrows" class="price__text">А11.07.012</p>
-                    </div>
-                    <div class="price__rows">
-                        <p id="onerow" class="price__text">Отбеливание зубов системой "Amazing White"</p>
-                        <p id="threerows" class="price__text">6500</p>
-                        <p id="threerows" class="price__text">4007</p>
-                        <p id="fourrows" class="price__text">А16.07.050</p>
-                    </div>
-                    <div class="price__rows">
-                        <p id="onerow" class="price__text">Комплекс (ультразвук, аэрфлоу, полировка, фторирование)</p>
-                        <p id="threerows" class="price__text">4500</p>
-                        <p id="threerows" class="price__text">4008</p>
-                        <p id="fourrows" class="price__text">А16.07.051</p>
-                    </div>
-                </div>
+            <div class="services__block-img">
+              <img
+                class="services__image"
+                src="../images/WhiteningImage.png"
+                alt="Фото отбеливание"
+              />
             </div>
-        </section>
+          </div>
+        </div>
+      </section>
+      <section id="price" class="price">
+        <h2 class="none">None</h2>
+        <div class="price__block">
+          <p id="treatmentTitle" class="price__title button">Лечение</p>
+          <div
+            id="treatmentBlock"
+            class="price__block-price price__block-price_active"
+          >
+            <div class="price__rows">
+              <p class="onerow price__subtitle">Название услуги</p>
+              <p class="threerows price__subtitle">Цена руб.</p>
+              <p class="threerows price__subtitle">Код</p>
+              <p class="fourrows price__subtitle">Кодировка</p>
+            </div>
+            <div class="price__rows">
+              <p class="onerow price__text">
+                Консультация ( первичный осмотр, составление плана лечения,
+                санитарный комплекс)
+              </p>
+              <p class="threerows price__text">бесплатно</p>
+              <p class="threerows price__text">1001</p>
+              <p class="fourrows price__text">В01.065.001</p>
+            </div>
+            <div class="price__rows">
+              <p class="onerow price__text">
+                Санитарный комплекс ( повторный прием)
+              </p>
+              <p class="threerows price__text">бесплатно</p>
+              <p class="threerows price__text">1002</p>
+              <p class="fourrows price__text">В01.065.002</p>
+            </div>
+            <div class="price__rows">
+              <p class="onerow price__subtitle">Анестезия</p>
+              <p class="threerows price__subtitle"></p>
+              <p class="threerows price__subtitle"></p>
+              <p class="fourrows price__subtitle"></p>
+            </div>
+            <div class="price__rows">
+              <p class="onerow price__text">Анестезия аппликационная</p>
+              <p class="threerows price__text">100</p>
+              <p class="threerows price__text">1003</p>
+              <p class="fourrows price__text">В01.003.004.00 4</p>
+            </div>
+            <div class="price__rows">
+              <p class="onerow price__text">
+                Анестезия проводниковая, инфильтрационная артикаином
+              </p>
+              <p class="threerows price__text">500</p>
+              <p class="threerows price__text">1004</p>
+              <p class="fourrows price__text">
+                В01.003.004.00 2 В01.003.004.00 5
+              </p>
+            </div>
+            <div class="price__rows">
+              <p class="onerow price__text">Анестезия дополнительная</p>
+              <p class="threerows price__text">250</p>
+              <p class="threerows price__text">1005</p>
+              <p class="fourrows price__text">
+                В01.003.004.00 2 В01.003.004.00 5
+              </p>
+            </div>
+            <div class="price__rows">
+              <p class="onerow price__subtitle">Терапия</p>
+              <p class="threerows price__subtitle"></p>
+              <p class="threerows price__subtitle"></p>
+              <p class="fourrows price__subtitle"></p>
+            </div>
+            <div class="price__rows">
+              <p class="onerow price__text">
+                Пломба из материала светового отверждения Estelite Sigma,
+                Gradia, Ceram X
+              </p>
+              <p class="threerows price__text">3500</p>
+              <p class="threerows price__text">2001</p>
+              <p class="fourrows price__text">А16.07.002</p>
+            </div>
+            <div class="price__rows">
+              <p class="onerow price__text">
+                + дополнительная поверхность из Estelite Sigma, Gradia, Ceram X
+              </p>
+              <p class="threerows price__text">1400</p>
+              <p class="threerows price__text">2002</p>
+              <p class="fourrows price__text">А16.07.002</p>
+            </div>
+            <div class="price__rows">
+              <p class="onerow price__text">
+                Пломба из материала Palfique Estelite Paste
+              </p>
+              <p class="threerows price__text">2500</p>
+              <p class="threerows price__text">2003</p>
+              <p class="fourrows price__text">А16.07.002</p>
+            </div>
+            <div class="price__rows">
+              <p class="onerow price__text">
+                Пломба из жидкотекучего материала
+              </p>
+              <p class="threerows price__text">1500</p>
+              <p class="threerows price__text">2004</p>
+              <p class="fourrows price__text">А16.07.002</p>
+            </div>
+            <div class="price__rows">
+              <p class="onerow price__text">
+                Эстетическая реставрация коронки зуба (виниры композитные)
+              </p>
+              <p class="threerows price__text">5500</p>
+              <p class="threerows price__text">2005</p>
+              <p class="fourrows price__text">А16.07.003</p>
+            </div>
+            <div class="price__rows">
+              <p class="onerow price__text">Восстановление культи зуба</p>
+              <p class="threerows price__text">2300</p>
+              <p class="threerows price__text">2006</p>
+              <p class="fourrows price__text">А16.07.002</p>
+            </div>
+            <div class="price__rows">
+              <p class="onerow price__text">Титановый штифт с фиксацией</p>
+              <p class="threerows price__text">1000</p>
+              <p class="threerows price__text">2007</p>
+              <p class="fourrows price__text">А16.07.093</p>
+            </div>
+            <div class="price__rows">
+              <p class="onerow price__text">
+                Стекловолоконный штифт с фиксацией
+              </p>
+              <p class="threerows price__text">1000</p>
+              <p class="threerows price__text">2008</p>
+              <p class="fourrows price__text">А16.07.093</p>
+            </div>
+            <div class="price__rows">
+              <p class="onerow price__text">
+                Герметизация фиссур жидкотекучим композитом
+              </p>
+              <p class="threerows price__text">1500</p>
+              <p class="threerows price__text">2009</p>
+              <p class="fourrows price__text">А16.07.057</p>
+            </div>
+            <div class="price__rows">
+              <p class="onerow price__text">
+                Лечебная прокладка (при глубоком кариесе)
+              </p>
+              <p class="threerows price__text">300</p>
+              <p class="threerows price__text">2010</p>
+              <p class="fourrows price__text">А16.07.002</p>
+            </div>
+            <div class="price__rows">
+              <p class="onerow price__text">Изолирующая прокладка</p>
+              <p class="threerows price__text">350</p>
+              <p class="threerows price__text">2011</p>
+              <p class="fourrows price__text">А16.07.002</p>
+            </div>
+            <div class="price__rows">
+              <p class="onerow price__text">
+                Инструментальная и медикаментозная обработка одного канала
+              </p>
+              <p class="threerows price__text">800</p>
+              <p class="threerows price__text">2012</p>
+              <p class="fourrows price__text">А16.07.030</p>
+            </div>
+            <div class="price__rows">
+              <p class="onerow price__text">
+                Наложение девитализирующей пасты с временной пломбой
+              </p>
+              <p class="threerows price__text">500</p>
+              <p class="threerows price__text">2013</p>
+              <p class="fourrows price__text">А11.07.027 А16.07.002.009</p>
+            </div>
+            <div class="price__rows">
+              <p class="onerow price__text">
+                Временное пломбирование корневого канала лечебной пастой (1
+                канал)
+              </p>
+              <p class="threerows price__text">500</p>
+              <p class="threerows price__text">2014</p>
+              <p class="fourrows price__text">А16.07.030.003</p>
+            </div>
+            <div class="price__rows">
+              <p class="onerow price__text">
+                Распломбировка корневого канала ранее леченного пастой
+              </p>
+              <p class="threerows price__text">500</p>
+              <p class="threerows price__text">2015</p>
+              <p class="fourrows price__text">А16.07.082.001</p>
+            </div>
+            <div class="price__rows">
+              <p class="onerow price__text">
+                Распломбировка корневого канала ранее леченного
+                фосфатцементом/резорцин-формальдегидным методом, гуттаперча
+              </p>
+              <p class="threerows price__text">700</p>
+              <p class="threerows price__text">2016</p>
+              <p class="fourrows price__text">А16.07.082.002</p>
+            </div>
+            <div class="price__rows">
+              <p class="onerow price__text">Наложение временной пломбы</p>
+              <p class="threerows price__text">250</p>
+              <p class="threerows price__text">2017</p>
+              <p class="fourrows price__text">А16.07.002.009</p>
+            </div>
+            <div class="price__rows">
+              <p class="onerow price__text">
+                Извлечение из корневого канала инородного тела
+              </p>
+              <p class="threerows price__text">500</p>
+              <p class="threerows price__text">2018</p>
+              <p class="fourrows price__text">А16.07.094</p>
+            </div>
+            <div class="price__rows">
+              <p class="onerow price__text">Избирательное полирование зуба</p>
+              <p class="threerows price__text">250</p>
+              <p class="threerows price__text">2019</p>
+              <p class="fourrows price__text">А16.07.025.001</p>
+            </div>
+            <div class="price__rows">
+              <p class="onerow price__text">
+                Вскрытие коронки зуба из металла, металлокерамики
+              </p>
+              <p class="threerows price__text">300</p>
+              <p class="threerows price__text">2020</p>
+              <p class="fourrows price__text">А16.07.092</p>
+            </div>
+            <div class="price__rows">
+              <p class="onerow price__text">
+                Постоянное пломбирование корневого канала гуттаперчей (1 канал)
+              </p>
+              <p class="threerows price__text">900</p>
+              <p class="threerows price__text">2021</p>
+              <p class="fourrows price__text">А16.07.008.002</p>
+            </div>
+            <div class="price__rows">
+              <p class="onerow price__text">
+                +дополнительная поверхность из Palfique Estelite Paste
+              </p>
+              <p class="threerows price__text">900</p>
+              <p class="threerows price__text">2022</p>
+              <p class="fourrows price__text">А16.07.002</p>
+            </div>
+            <div class="price__rows">
+              <p class="onerow price__text">
+                Пломба из материала Omnichroma, Blocker
+              </p>
+              <p class="threerows price__text">3700</p>
+              <p class="threerows price__text">2023</p>
+              <p class="fourrows price__text">А16.07.002</p>
+            </div>
+            <div class="price__rows">
+              <p class="onerow price__text">Экстирпация пульпы</p>
+              <p class="threerows price__text">150</p>
+              <p class="threerows price__text">2024</p>
+              <p class="fourrows price__text">А16.07.010</p>
+            </div>
+          </div>
+        </div>
+        <div class="price__block">
+          <p id="orthopedicsTitle" class="price__title button">Ортопедия</p>
+          <div id="orthopedicsBlock" class="price__block-price">
+            <div class="price__rows">
+              <p class="onerow price__subtitle">Название услуги</p>
+              <p class="threerows price__subtitle">Цена руб.</p>
+              <p class="threerows price__subtitle">Код</p>
+              <p class="fourrows price__subtitle">Кодировка</p>
+            </div>
+            <div class="price__rows">
+              <p class="onerow price__text">
+                Консультация ( первичный осмотр, составление плана лечения,
+                санитарный комплекс)
+              </p>
+              <p class="threerows price__text">бесплатно</p>
+              <p class="threerows price__text">1001</p>
+              <p class="fourrows price__text">В01.065.001</p>
+            </div>
+            <div class="price__rows">
+              <p class="onerow price__text">
+                Санитарный комплекс ( повторный прием)
+              </p>
+              <p class="threerows price__text">бесплатно</p>
+              <p class="threerows price__text">1002</p>
+              <p class="fourrows price__text">В01.065.002</p>
+            </div>
+            <div class="price__rows">
+              <p class="onerow price__subtitle">Анестезия</p>
+              <p class="threerows price__subtitle"></p>
+              <p class="threerows price__subtitle"></p>
+              <p class="fourrows price__subtitle"></p>
+            </div>
+            <div class="price__rows">
+              <p class="onerow price__text">Анестезия аппликационная</p>
+              <p class="threerows price__text">100</p>
+              <p class="threerows price__text">1003</p>
+              <p class="fourrows price__text">В01.003.004.00 4</p>
+            </div>
+            <div class="price__rows">
+              <p class="onerow price__text">
+                Анестезия проводниковая, инфильтрационная артикаином
+              </p>
+              <p class="threerows price__text">500</p>
+              <p class="threerows price__text">1004</p>
+              <p class="fourrows price__text">
+                В01.003.004.00 2 В01.003.004.00 5
+              </p>
+            </div>
+            <div class="price__rows">
+              <p class="onerow price__text">Анестезия дополнительная</p>
+              <p class="threerows price__text">250</p>
+              <p class="threerows price__text">1005</p>
+              <p class="fourrows price__text">
+                В01.003.004.00 2 В01.003.004.00 5
+              </p>
+            </div>
+            <div class="price__rows">
+              <p class="onerow price__subtitle">Съемные протезы:</p>
+              <p class="threerows price__subtitle"></p>
+              <p class="threerows price__subtitle"></p>
+              <p class="fourrows price__subtitle"></p>
+            </div>
+            <div class="price__rows">
+              <p class="onerow price__text">
+                Полносъемный (частичносъемный) протез с импортной гарнитурой
+              </p>
+              <p class="threerows price__text">17500</p>
+              <p class="threerows price__text">3001</p>
+              <p class="fourrows price__text">А16.07.023 А02.07.010.001</p>
+            </div>
+            <div class="price__rows">
+              <p class="onerow price__text">
+                Съемный протез методом литья Quattro Ti
+              </p>
+              <p class="threerows price__text">43000</p>
+              <p class="threerows price__text">3002</p>
+              <p class="fourrows price__text">А16.07.035 А02.07.010.001</p>
+            </div>
+            <div class="price__rows">
+              <p class="onerow price__text">
+                Бюгельный протез односторонний на кламмерах
+              </p>
+              <p class="threerows price__text">26000</p>
+              <p class="threerows price__text">3003</p>
+              <p class="fourrows price__text">А16.07.036 А02.07.010.001</p>
+            </div>
+            <div class="price__rows">
+              <p class="onerow price__text">
+                Микропротез, иммедиат протез (косметическая пластинка)
+              </p>
+              <p class="threerows price__text">11000</p>
+              <p class="threerows price__text">3004</p>
+              <p class="fourrows price__text">А16.07.035 А02.07.010.001</p>
+            </div>
+            <div class="price__rows">
+              <p class="onerow price__text">
+                Cъемный протез на основе термопласта
+              </p>
+              <p class="threerows price__text">42000</p>
+              <p class="threerows price__text">3005</p>
+              <p class="fourrows price__text">А16.07.035 А02.07.010.001</p>
+            </div>
+            <div class="price__rows">
+              <p class="onerow price__text">Бюгельный протез</p>
+              <p class="threerows price__text">40000</p>
+              <p class="threerows price__text">3006</p>
+              <p class="fourrows price__text">А16.07.036 А02.07.010.001</p>
+            </div>
+            <div class="price__rows">
+              <p class="onerow price__text">
+                Съемный протез на основе термопласта до трех зубов
+              </p>
+              <p class="threerows price__text">23000</p>
+              <p class="threerows price__text">3007</p>
+              <p class="fourrows price__text">А16.07.035 А02.07.010.001</p>
+            </div>
+            <div class="price__rows">
+              <p class="onerow price__text">
+                Съемный протез методом литья Quattro Ti до трех зубов
+              </p>
+              <p class="threerows price__text">23000</p>
+              <p class="threerows price__text">3008</p>
+              <p class="fourrows price__text">А16.07.035 А02.07.010.001</p>
+            </div>
+            <div class="price__rows">
+              <p class="onerow price__subtitle">Несъемные протезы:</p>
+              <p class="threerows price__subtitle"></p>
+              <p class="threerows price__subtitle"></p>
+              <p class="fourrows price__subtitle"></p>
+            </div>
+            <div class="price__rows">
+              <p class="onerow price__text">
+                Безметалловая коронка на основании оксида циркония
+              </p>
+              <p class="threerows price__text">17500</p>
+              <p class="threerows price__text">3009</p>
+              <p class="fourrows price__text">А16.07.004 А02.07.010.001</p>
+            </div>
+            <div class="price__rows">
+              <p class="onerow price__text">Металлокерамическая коронка</p>
+              <p class="threerows price__text">10500</p>
+              <p class="threerows price__text">3010</p>
+              <p class="fourrows price__text">А16.07.004 А02.07.010.001</p>
+            </div>
+            <div class="price__rows">
+              <p class="onerow price__text">Временная коронка прямым методом</p>
+              <p class="threerows price__text">1500</p>
+              <p class="threerows price__text">3011</p>
+              <p class="fourrows price__text">А16.07.004 А02.07.010.001</p>
+            </div>
+            <div class="price__rows">
+              <p class="onerow price__text">
+                Цельнолитая коронка<br />Цельнолитая коронка с напылением
+              </p>
+              <p class="threerows price__text">6000<br />6500</p>
+              <p class="threerows price__text">3012<br />3013</p>
+              <p class="fourrows price__text">А16.07.004 А02.07.010.001</p>
+            </div>
+            <div class="price__rows">
+              <p class="onerow price__text">
+                Штифтовая вкладка<br />Штифтовая вкладка разборная
+              </p>
+              <p class="threerows price__text">5200<br />5700</p>
+              <p class="threerows price__text">3014<br />3015</p>
+              <p class="fourrows price__text">А16.07.033 А02.07.010.001</p>
+            </div>
+
+            <div class="price__rows">
+              <p class="onerow price__text">
+                Снятие металлической коронки (1 единица)
+              </p>
+              <p class="threerows price__text">500</p>
+              <p class="threerows price__text">3016</p>
+              <p class="fourrows price__text">А16.07.053</p>
+            </div>
+            <div class="price__rows">
+              <p class="onerow price__text">
+                Снятие металлокерамической, цельнолитой коронки (1 единица)
+              </p>
+              <p class="threerows price__text">700</p>
+              <p class="threerows price__text">3017</p>
+              <p class="fourrows price__text">А16.07.053</p>
+            </div>
+            <div class="price__rows">
+              <p class="onerow price__text">
+                Укрепление коронки FUJI (1 единица)
+              </p>
+              <p class="threerows price__text">700</p>
+              <p class="threerows price__text">3018</p>
+              <p class="fourrows price__text">А16.07.004</p>
+            </div>
+            <div class="price__rows">
+              <p class="onerow price__text">
+                Снятие оттиска с одной челюсти (альгинатной массой)
+              </p>
+              <p class="threerows price__text">700</p>
+              <p class="threerows price__text">3019</p>
+              <p class="fourrows price__text">А02.07.010.001</p>
+            </div>
+            <div class="price__rows">
+              <p class="onerow price__text">
+                Снятие оттиска с одной челюсти (двухслойной массой)
+              </p>
+              <p class="threerows price__text">1000</p>
+              <p class="threerows price__text">3020</p>
+              <p class="fourrows price__text">А02.07.010.001</p>
+            </div>
+            <div class="price__rows">
+              <p class="onerow price__text">Починка съемных протезов</p>
+              <p class="threerows price__text">4500</p>
+              <p class="threerows price__text">3021</p>
+              <p class="fourrows price__text">А23.07.002.037</p>
+            </div>
+            <div class="price__rows">
+              <p class="onerow price__text">Приварка одного зуба</p>
+              <p class="threerows price__text">3500</p>
+              <p class="threerows price__text">3022</p>
+              <p class="fourrows price__text">А23.07.002.036</p>
+            </div>
+            <div class="price__rows">
+              <p class="onerow price__text">Приварка последующих зубов</p>
+              <p class="threerows price__text">2500</p>
+              <p class="threerows price__text">3023</p>
+              <p class="fourrows price__text">А23.07.002.036</p>
+            </div>
+            <div class="price__rows">
+              <p class="onerow price__text">Перебазировка протеза</p>
+              <p class="threerows price__text">9500</p>
+              <p class="threerows price__text">3024</p>
+              <p class="fourrows price__text">А23.07.002.037</p>
+            </div>
+            <div class="price__rows">
+              <p class="onerow price__text">Восковое моделирование/wax up</p>
+              <p class="threerows price__text">1500</p>
+              <p class="threerows price__text">3025</p>
+              <p class="fourrows price__text">А02.07.006</p>
+            </div>
+            <div class="price__rows">
+              <p class="onerow price__text">Индивидуальная ложка</p>
+              <p class="threerows price__text">3500</p>
+              <p class="threerows price__text">3026</p>
+              <p class="fourrows price__text">
+                А02.07.010.001 А02.07.010 А16.07.023
+              </p>
+            </div>
+            <div class="price__rows">
+              <p class="onerow price__text">Винир Е.max</p>
+              <p class="threerows price__text">18000</p>
+              <p class="threerows price__text">3027</p>
+              <p class="fourrows price__text">А16.07.004 А02.07.010.001</p>
+            </div>
+            <div class="price__rows">
+              <p class="onerow price__text">Коронка временная фрезерованная</p>
+              <p class="threerows price__text">4000</p>
+              <p class="threerows price__text">3028</p>
+              <p class="fourrows price__text">А16.07.004 А16.07.006</p>
+            </div>
+            <div class="price__rows">
+              <p class="onerow price__text">Пластмассовая коронка</p>
+              <p class="threerows price__text">5000</p>
+              <p class="threerows price__text">3029</p>
+              <p class="fourrows price__text">А16.07.004</p>
+            </div>
+            <div class="price__rows">
+              <p class="onerow price__text">
+                Повторное изготовление временной коронки прямым методом
+              </p>
+              <p class="threerows price__text">500</p>
+              <p class="threerows price__text">3030</p>
+              <p class="fourrows price__text">А16.07.004 А02.07.010.001</p>
+            </div>
+            <div class="price__rows">
+              <p class="onerow price__text">Прикусной шаблон</p>
+              <p class="threerows price__text">1800</p>
+              <p class="threerows price__text">3031</p>
+              <p class="fourrows price__text">А02.07.006</p>
+            </div>
+          </div>
+        </div>
+        <div class="price__block">
+          <p id="hygAndWhitTitle" class="price__title button">
+            Гигиена и Отбеливание
+          </p>
+          <div id="hygAndWhitBlock" class="price__block-price">
+            <div class="price__rows">
+              <p class="onerow price__subtitle">Название услуги</p>
+              <p class="threerows price__subtitle">Цена руб.</p>
+              <p class="threerows price__subtitle">Код</p>
+              <p class="fourrows price__subtitle">Кодировка</p>
+            </div>
+            <div class="price__rows">
+              <p class="onerow price__text">Комплекс ( аэрфлоу, полировка)</p>
+              <p class="threerows price__text">3500</p>
+              <p class="threerows price__text">4001</p>
+              <p class="fourrows price__text">А16.07.051</p>
+            </div>
+            <div class="price__rows">
+              <p class="onerow price__text">
+                Удаление мягкого и пигментированного налета (за 1 зуб)
+              </p>
+              <p class="threerows price__text">250</p>
+              <p class="threerows price__text">4002</p>
+              <p class="fourrows price__text">А16.07.51</p>
+            </div>
+            <div class="price__rows">
+              <p class="onerow price__text">
+                Снятие зубных отложений с использованием наконечника (за 1 зуб)
+              </p>
+              <p class="threerows price__text">250</p>
+              <p class="threerows price__text">4003</p>
+              <p class="fourrows price__text">А22.07.002</p>
+            </div>
+            <div class="price__rows">
+              <p class="onerow price__text">
+                Комплекс (ультразвук, аэрфлоу, полировка)
+              </p>
+              <p class="threerows price__text">4000</p>
+              <p class="threerows price__text">4004</p>
+              <p class="fourrows price__text">А16.07.051</p>
+            </div>
+            <div class="price__rows">
+              <p class="onerow price__text">
+                Комплекс (полировка, фторирование)
+              </p>
+              <p class="threerows price__text">2000</p>
+              <p class="threerows price__text">4005</p>
+              <p class="fourrows price__text">А16.07.051</p>
+            </div>
+            <div class="price__rows">
+              <p class="onerow price__text">
+                Обработка фторсодержаним препаратом (за 1 зуб)
+              </p>
+              <p class="threerows price__text">200</p>
+              <p class="threerows price__text">4006</p>
+              <p class="fourrows price__text">А11.07.012</p>
+            </div>
+            <div class="price__rows">
+              <p class="onerow price__text">
+                Отбеливание зубов системой "Amazing White"
+              </p>
+              <p class="threerows price__text">6500</p>
+              <p class="threerows price__text">4007</p>
+              <p class="fourrows price__text">А16.07.050</p>
+            </div>
+            <div class="price__rows">
+              <p class="onerow price__text">
+                Комплекс (ультразвук, аэрфлоу, полировка, фторирование)
+              </p>
+              <p class="threerows price__text">4500</p>
+              <p class="threerows price__text">4008</p>
+              <p class="fourrows price__text">А16.07.051</p>
+            </div>
+          </div>
+        </div>
+      </section>
     </main>
     <footer class="footer">
-        <ul class="footer__block">
-            <li class="footer__item">
-                <img class="logo" src="../images/Logo.svg" alt="Логотип">
-            </li>
-            <li class="footer__item">
-                <p class="footer__title">Адрес</p>
-                <p class="footer__subtitle">Лежневская 159,<br>Иваново</p>
-            </li>
-            <li class="footer__item">
-                <p class="footer__title">Время работы</p>
-                <p class="footer__subtitle">ПН-ПТ: 8:30-19:00<br>СБ: 9:00-14:00<br>ВС: выходной</p>
-            </li>
-            <li class="footer__item">
-                <p class="footer__title">Контакты</p>
-                <p class="footer__subtitle">+7(4932)700-149</p>
-            </li>
-        </ul>
-        <div class="footer__item-last">
-            <a class="footer__link" href="tel:+79158280104"><img class="footer__img button" src="../images/TelegaramWhite.png" alt="Телеграмм"></a>
-            <a class="footer__link" href="tel:+79158280104"><img class="footer__img button" src="../images/viberwhite.png" alt="Вайбер"></a>
-            <a class="footer__link" href="tel:+79158280104"><img class="footer__img button" src="../images/whatsappwhite.png" alt="Ватсап"></a>
-            <a class="footer__link" href="https://vk.com/dentalen" target="_blank"><img class="footer__img button" src="../images/FooterVK.png" alt="ВК"></a>
-            <a class="footer__link" href="https://instagram.com/dentalen37?igshid=YmMyMTA2M2Y=" target="_blank"><img class="footer__img button" src="../images/FooterInst.svg" alt="Инстаграмм"></a>
-        </div>
+      <ul class="footer__block">
+        <li class="footer__item">
+          <img class="logo" src="../images/Logo.svg" alt="Логотип" />
+        </li>
+        <li class="footer__item">
+          <p class="footer__title">Адрес</p>
+          <p class="footer__subtitle">Лежневская 159,<br />Иваново</p>
+        </li>
+        <li class="footer__item">
+          <p class="footer__title">Время работы</p>
+          <p class="footer__subtitle">
+            ПН-ПТ: 8:30-19:00<br />СБ: 9:00-14:00<br />ВС: выходной
+          </p>
+        </li>
+        <li class="footer__item">
+          <p class="footer__title">Контакты</p>
+          <p class="footer__subtitle">+7(4932)700-149</p>
+        </li>
+      </ul>
+      <div class="footer__item-last">
+        <a class="footer__link" href="tel:+79158280104"
+          ><img
+            class="footer__img button"
+            src="../images/TelegaramWhite.png"
+            alt="Телеграмм"
+        /></a>
+        <a class="footer__link" href="tel:+79158280104"
+          ><img
+            class="footer__img button"
+            src="../images/viberwhite.png"
+            alt="Вайбер"
+        /></a>
+        <a class="footer__link" href="tel:+79158280104"
+          ><img
+            class="footer__img button"
+            src="../images/whatsappwhite.png"
+            alt="Ватсап"
+        /></a>
+        <a class="footer__link" href="https://vk.com/dentalen" target="_blank"
+          ><img
+            class="footer__img button"
+            src="../images/FooterVK.png"
+            alt="ВК"
+        /></a>
+        <a
+          class="footer__link"
+          href="https://instagram.com/dentalen37?igshid=YmMyMTA2M2Y="
+          target="_blank"
+          ><img
+            class="footer__img button"
+            src="../images/FooterInst.svg"
+            alt="Инстаграмм"
+        /></a>
+      </div>
     </footer>
     <script src="../script/service.js"></script>
     <script src="https://code.jquery.com/jquery-3.6.1.min.js"></script>
-    <script src="../script/index.js"></script>    
-</body>
-
+    <script src="../script/index.js"></script>
+  </body>
 </html>

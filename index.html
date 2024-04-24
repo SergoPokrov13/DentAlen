@@ -1,304 +1,539 @@
 <!DOCTYPE html>
 <html lang="ru">
-
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" type="text/css" href="./index.css">
-    <link rel="icon" type="image/x-icon" href="./images/Logo.svg">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" type="text/css" href="./index.css" />
+    <link rel="icon" type="image/x-icon" href="./images/Logo.svg" />
     <title>DentAlen</title>
-</head>
+  </head>
 
-<body class="root">
+  <body class="root">
     <header class="menu">
-        <div class="menu__block">
-            <a href="/index.html"><img class="logo" src="../images/Logo.svg" alt="Логотип"></a>
-            <p class="menu__title">ДентАлен</p>
+      <div class="menu__block">
+        <a href="/index.html"
+          ><img class="logo" src="../images/Logo.svg" alt="Логотип"
+        /></a>
+        <p class="menu__title">ДентАлен</p>
+      </div>
+      <div class="menu__line">
+        <div class="menu__burger">
+          <span class="span"></span>
         </div>
-           <div class="menu__line">
-            <div class="menu__burger">
-                <span class="span"></span>
-            </div>
-            <ul class="menu__links">
-                <li class="menu__item button"><a class="menu__link menu__link_active" href="/index.html">Главная</a></li>
-                <li class="menu__item button"><a class="menu__link" href="./pages/services.html">Услуги</a></li>
-                <li class="menu__item button"><a class="menu__link" href="./pages/clinic.html">О клинике</a></li>
-                <li class="menu__item button"><a class="menu__link" href="./pages/doctors.html">Врачи</a></li>
-                <li class="menu__item button"><a class="menu__link" href="#reviews">Отзывы</a></li>
-                <li class="menu__item button"><a class="menu__link" href="./pages/document.html">Документы</a></li>
-                <li class="menu__item button"><a class="menu__link" href="#address">Контакты</a></li>
-            </ul>
-            <div class="menu__entry button">
-                <a href="https://yandex.ru/business/widget/request/company/207068090074" target="_blank" class="menu__number">Записаться</a>
-            </div>
+        <ul class="menu__links">
+          <li class="menu__item button">
+            <a class="menu__link menu__link_active" href="/index.html"
+              >Главная</a
+            >
+          </li>
+          <li class="menu__item button">
+            <a class="menu__link" href="./pages/services.html">Услуги</a>
+          </li>
+          <li class="menu__item button">
+            <a class="menu__link" href="./pages/clinic.html">О клинике</a>
+          </li>
+          <li class="menu__item button">
+            <a class="menu__link" href="./pages/doctors.html">Врачи</a>
+          </li>
+          <li class="menu__item button">
+            <a class="menu__link" href="#reviews">Отзывы</a>
+          </li>
+          <li class="menu__item button">
+            <a class="menu__link" href="./pages/document.html">Документы</a>
+          </li>
+          <li class="menu__item button">
+            <a class="menu__link" href="#address">Контакты</a>
+          </li>
+        </ul>
+        <div class="menu__entry button">
+          <a
+            href="https://yandex.ru/business/widget/request/company/207068090074"
+            target="_blank"
+            class="menu__number"
+            >Записаться</a
+          >
         </div>
+      </div>
     </header>
     <main class="main">
-        <section class="header">
-            <div class="header__two-column">
-                <div class="header__block-one">
-                    <img class="header__image" src="../images/headerImage.png" alt="Кабинет">
-                </div>
-                <div class="header__block-two">
-                    <h1 class="header__title">Первичная консультация бесплатно!</h1>
-                    <div class="header__line"></div>
-                    <p class="header__subtitle">Грамотный уход и восстановление красоты ваших зубов!</p>
-                    <button class="header__button button"><a class="header__link" target="_blank" href="https://yandex.ru/business/widget/request/company/207068090074" >Записаться</a></button>
-                </div>   
-            </div>
-        </section>
-        <section class="intro">
-            <ul class="intro__list">
-                <li class="intro__item">
-                    <div class="intro__block">
-                        <img class="intro__image" src="../images/IntroTreatment.svg" alt="Лечение">
-                        <p class="intro__paragrath">Лечение</p>
-                    </div>
-                    <a href="./pages/services.html" class="intro__button button">Подробнее</a>
-                </li>
-                <li class="intro__item">
-                    <div class="intro__block">
-                        <img class="intro__image" src="../images/IntroOrthopedics.svg" alt="Ортопедия">
-                        <p class="intro__paragrath">Ортопедия</p>
-                    </div>
-                    <a href="./pages/services.html" class="intro__button button">Подробнее</a>
-                </li>
-                <li class="intro__item">
-                    <div class="intro__block">
-                        <img class="intro__image" src="../images/IntroHygiene.svg" alt="Гигиена">
-                        <p class="intro__paragrath">Гигиена</p>
-                    </div>
-                    <a href="./pages/services.html" class="intro__button button">Подробнее</a>
-                </li>
-                <li class="intro__item">
-                    <div class="intro__block">
-                        <img class="intro__image" src="../images/IntroWhitening.svg" alt="Отбеливание">
-                        <p class="intro__paragrath">Отбеливание</p>
-                    </div>
-                    <a href="./pages/services.html" class="intro__button button">Подробнее</a>
-                </li>
-            </ul>
-        </section>
-    </main>
-        <section class="stock">
-            <div class="stock__block">
-                <h2 class="stock__title">Первичная консультация бесплатно!</h2>
-                <a href="https://yandex.ru/business/widget/request/company/207068090074" target="_blank" class="stock__button button">Записаться</a>
-            </div>
-        </section>
-    <main class="main">
-        <section class="info">
-            <div class="info__two-columns">
-                <div class="info__block-one">
-                    <img class="info__img" src="../images/clinicTwoBlock.png" alt="Информация">
-                </div>
-                <ul class="info__block-two">
-                    <li class="info__item">
-                        <img class="info__image" src="../images/InfoProfessional.svg" alt="Профессионалы">
-                        <h2 class="info__title">Мы-профессионалы</h2>
-                        <p class="info__subtitle">Коллектив клиники-сплоченная команда опыных, квалифицированных врачей с многолетним опытом. Команда обеспечивает высокое качество всех услуг.</p>
-                    </li>
-                    <li class="info__item">
-                        <img class="info__image" src="../images/InfoLove.svg" alt="Любим Вас">
-                        <h2 class="info__title">Первоклассный сервис</h2>
-                        <p class="info__subtitle">Один из ключевых наших принципов-индивидуальный подход к каждому пациенту и комплексное решение задач.</p>
-                    </li>
-                    <li class="info__item">
-                        <img class="info__image" src="../images/InfoCare.svg" alt="Заботимся о вас">
-                        <h2 class="info__title">Заботимся о вашей безопасности</h2>
-                        <p class="info__subtitle">Используем современные защитные средства, одноразовые вспомогательные инструменты и подвергаем оборудование многоступенчатой обработке.</p>
-                    </li>
-                    <li class="info__item">
-                        <img class="info__image" src="../images/InfoLeading.svg" alt="Оборудование">
-                        <h2 class="info__title">Оборудование ведущих производителей</h2>
-                        <p class="info__subtitle">Мы используем только передовое оборудование. Благодаря такому оснащению клиники наша команда готова оказать высококачественное лечение пациентам. </p>
-                    </li>
-                </ul>
-            </div>
-        </section>
-        <section class="doctors">
-            <div class="doctors__element slider">
-            <div class="doctors__slide slider__item">
-                <div class="doctors__block doctors__one">
-                    <div class="doctors__text">
-                        <p class="doctors__name">Кравченко Ирина Александровна</p>
-                        <p class="doctors__subtitle">Стоматолог-терапевт</p>
-                    </div>
-                </div>
-                <a href="./pages/doctors.html#Irina" class="doctors__button button">Подробнее</a>
-            </div>
-            <div class="doctors__slide slider__item">
-                <div class="doctors__block doctors__two">
-                    <div class="doctors__text">
-                        <p class="doctors__name">Мигулев Николай Сергеевич</p>
-                        <p class="doctors__subtitle">Стоматолог-ортопед</p>
-                    </div>
-                </div>
-                <a href="./pages/doctors.html#Nikolay" class="doctors__button button">Подробнее</a>
-            </div>
-            <div class="doctors__slide slider__item">
-                <div class="doctors__block doctors__three">
-                    <div class="doctors__text">
-                        <p class="doctors__name">Шибаев Артем Олегович</p>
-                        <p class="doctors__subtitle">Стоматолог-ортопед</p>
-                    </div>
-                </div>
-                <a href="./pages/doctors.html#Artem" class="doctors__button button">Подробнее</a>
-            </div>
-            <div class="doctors__slide slider__item">
-                <div class="doctors__block doctors__for">
-                    <div class="doctors__text">
-                        <p class="doctors__name">Матвеичева Екатерина Сергеевна</p>
-                        <p class="doctors__subtitle">Врач-гигиенист</p>
-                    </div>
-                </div>
-                <a href="./pages/doctors.html#Katya" class="doctors__button button">Подробнее</a>
-            </div>
-            <div class="doctors__slide slider__item">
-                <div class="doctors__block doctors__five">
-                    <div class="doctors__text">
-                        <p class="doctors__name">Антипина Алена Алексеевна</p>
-                        <p class="doctors__subtitle">Стоматолог общей практики</p>
-                    </div>
-                </div>
-                <a href="./pages/doctors.html#Alena" class="doctors__button button">Подробнее</a>
-            </div>
-            <div class="doctors__slide slider__item">
-                <div class="doctors__block doctors__six">
-                    <div class="doctors__text">
-                        <p class="doctors__name">Иванова Ольга Николаевна</p>
-                        <p class="doctors__subtitle">Стоматолог-терапевт</p>
-                    </div>
-                </div>
-                <a href="./pages/doctors.html#Olga" class="doctors__button button">Подробнее</a>
-            </div>
+      <section class="header">
+        <div class="header__two-column">
+          <div class="header__block-one">
+            <img
+              class="header__image"
+              src="../images/headerImage.png"
+              alt="Кабинет"
+            />
+          </div>
+          <div class="header__block-two">
+            <h1 class="header__title">Первичная консультация бесплатно!</h1>
+            <div class="header__line"></div>
+            <h2 class="header__subtitle">
+              Грамотный уход и восстановление красоты ваших зубов!
+            </h2>
+            <a
+              class="header__button header__link button"
+              target="_blank"
+              href="https://yandex.ru/business/widget/request/company/207068090074"
+              >Записаться</a
+            >
+          </div>
         </div>
-        </section>
-        <section class="photo slideshow">
-            <div class="photo__slide">
-                <button data-way="prev" class="photo__btn-left button"></button>
-                <img class="photo__img slide" src="../images/PhotoOne.png" alt="Фото клиники">
-                <img class="photo__img slide" src="../images/PhotoTwo.jpg" alt="Фото клиники">
-                <img class="photo__img slide" src="../images/PhotoThree.jpg" alt="Фото клиники">
-                <img class="photo__img slide" src="../images/PhotoFour.jpg" alt="Фото клиники">
-                <img class="photo__img slide" src="../images/PhotoFive.jpg" alt="Фото клиники">
-                <button data-way="next" class="photo__btn-right button"></button>
+      </section>
+      <section class="intro">
+        <h2 class="none">None</h2>
+        <ul class="intro__list">
+          <li class="intro__item">
+            <div class="intro__block">
+              <img
+                class="intro__image"
+                src="../images/IntroTreatment.svg"
+                alt="Лечение"
+              />
+              <p class="intro__paragrath">Лечение</p>
             </div>
-            <div class="photo__dots">
-                <div class="photo__dot"></div>
-                <div class="photo__dot"></div>
-                <div class="photo__dot"></div>
-                <div class="photo__dot"></div>
-                <div class="photo__dot"></div>
+            <a href="./pages/services.html" class="intro__button button"
+              >Подробнее</a
+            >
+          </li>
+          <li class="intro__item">
+            <div class="intro__block">
+              <img
+                class="intro__image"
+                src="../images/IntroOrthopedics.svg"
+                alt="Ортопедия"
+              />
+              <p class="intro__paragrath">Ортопедия</p>
             </div>
-        </section>
-        <section id="reviews" class="reviews slideshow">
-            <div class="reviews__slide slide">
-                <div class="reviews__block-one">
-                    <img class="reviews__avatar" src="../images/DoctorI.png" alt="Фото врача">
-                    <p class="reviews__name">Кравченко Ирина Александровна</p>
-                    <p class="reviews__subtitle">Стоматолог-терапевт</p>
-                </div>
-                <div class="reviews__block-two">
-                    <div class="reviews__patient">
-                        <p class="reviews__name">Надежда</p>
-                        <p class="reviews__subtitle">пациент</p>
-                    </div>
-                    <p class="reviews__comment">Спасибо Вам огромнейшее, вылечили мой зуб, теперь он как новый! Если бы сразу пришла в клинику "ДентАлен" к Алёне, то не пришлось бы мучаться от жутких болей. Обязательно буду рекомендовать родным и близким! Теперь всей семьёй только сюда! Ещё раз огромное спасибо!</p>
-                </div>
+            <a href="./pages/services.html" class="intro__button button"
+              >Подробнее</a
+            >
+          </li>
+          <li class="intro__item">
+            <div class="intro__block">
+              <img
+                class="intro__image"
+                src="../images/IntroHygiene.svg"
+                alt="Гигиена"
+              />
+              <p class="intro__paragrath">Гигиена</p>
             </div>
-            <div class="reviews__slide slide">
-                <div class="reviews__block-one">
-                    <img class="reviews__avatar" src="../images/DoctorA.png" alt="Фото врача">
-                    <p class="reviews__name">Антипина Алена Алексеевна</p>
-                    <p class="reviews__subtitle">Стоматолог общей практики</p>
-                </div>
-                <div class="reviews__block-two">
-                    <div class="reviews__patient">
-                        <p class="reviews__name">Мария</p>
-                        <p class="reviews__subtitle">пациент</p>
-                    </div>
-                    <p class="reviews__comment">Спасибо Алене Алексеевне за отличную работу и внимательное отношение! Несколько раз я делала гигиену и буду дальше посещать ДентАлен. Алена Алексеевна еще и зуб мне спасла. Очень качественная и доступная по цене стомотология!</p>
-                </div>
+            <a href="./pages/services.html" class="intro__button button"
+              >Подробнее</a
+            >
+          </li>
+          <li class="intro__item">
+            <div class="intro__block">
+              <img
+                class="intro__image"
+                src="../images/IntroWhitening.svg"
+                alt="Отбеливание"
+              />
+              <p class="intro__paragrath">Отбеливание</p>
             </div>
-            <div class="reviews__slide slide">
-                <div class="reviews__block-one">
-                    <img class="reviews__avatar" src="../images/DoctorO.png" alt="Фото врача">
-                    <p class="reviews__name">Иванова Ольга Николаевна</p>
-                    <p class="reviews__subtitle">Стоматолог-терапевт</p>
-                </div>
-                <div class="reviews__block-two">
-                    <div class="reviews__patient">
-                        <p class="reviews__name">Екатерина</p>
-                        <p class="reviews__subtitle">пациент</p>
-                    </div>
-                    <p class="reviews__comment">Врач, Ольга Николаевна, очень хороший и квалифицированный специалист, уже 20 лет хожу только к ней, еще со времен химзавода. Не выдумывает лишние поблемы, чтобы болше денег взять, работает с душей, переживает за результат. Скольким уже своим друзьям и знакомым рекомендовала обращаться к ней и все довольны. Огромное спасибо за честный труд. Поболше бы таких врачей.</p>
-                </div>
+            <a href="./pages/services.html" class="intro__button button"
+              >Подробнее</a
+            >
+          </li>
+        </ul>
+      </section>
+      <section class="stock">
+        <div class="stock__block">
+          <h2 class="stock__title">Первичная консультация бесплатно!</h2>
+          <a
+            href="https://yandex.ru/business/widget/request/company/207068090074"
+            target="_blank"
+            class="stock__button button"
+            >Записаться</a
+          >
+        </div>
+      </section>
+      <section class="info">
+        <div class="info__two-columns">
+          <div class="info__block-one">
+            <img
+              class="info__img"
+              src="../images/clinicTwoBlock.png"
+              alt="Информация"
+            />
+          </div>
+          <ul class="info__block-two">
+            <li class="info__item">
+              <img
+                class="info__image"
+                src="../images/InfoProfessional.svg"
+                alt="Профессионалы"
+              />
+              <h2 class="info__title">Мы-профессионалы</h2>
+              <p class="info__subtitle">
+                Коллектив клиники-сплоченная команда опыных, квалифицированных
+                врачей с многолетним опытом. Команда обеспечивает высокое
+                качество всех услуг.
+              </p>
+            </li>
+            <li class="info__item">
+              <img
+                class="info__image"
+                src="../images/InfoLove.svg"
+                alt="Любим Вас"
+              />
+              <h2 class="info__title">Первоклассный сервис</h2>
+              <p class="info__subtitle">
+                Один из ключевых наших принципов-индивидуальный подход к каждому
+                пациенту и комплексное решение задач.
+              </p>
+            </li>
+            <li class="info__item">
+              <img
+                class="info__image"
+                src="../images/InfoCare.svg"
+                alt="Заботимся о вас"
+              />
+              <h2 class="info__title">Заботимся о вашей безопасности</h2>
+              <p class="info__subtitle">
+                Используем современные защитные средства, одноразовые
+                вспомогательные инструменты и подвергаем оборудование
+                многоступенчатой обработке.
+              </p>
+            </li>
+            <li class="info__item">
+              <img
+                class="info__image"
+                src="../images/InfoLeading.svg"
+                alt="Оборудование"
+              />
+              <h2 class="info__title">Оборудование ведущих производителей</h2>
+              <p class="info__subtitle">
+                Мы используем только передовое оборудование. Благодаря такому
+                оснащению клиники наша команда готова оказать высококачественное
+                лечение пациентам.
+              </p>
+            </li>
+          </ul>
+        </div>
+      </section>
+      <section class="doctors">
+        <h2 class="none">None</h2>
+        <div class="doctors__element slider">
+          <div class="doctors__slide slider__item">
+            <div class="doctors__block doctors__one">
+              <div class="doctors__text">
+                <p class="doctors__name">Кравченко Ирина Александровна</p>
+                <p class="doctors__subtitle">Стоматолог-терапевт</p>
+              </div>
             </div>
-            <div class="reviews__element">
-                <button data-way="prev" class="reviews__btn-left button"></button>
-                <button data-way="next" class="reviews__btn-right button"></button>
+            <a href="./pages/doctors.html#Irina" class="doctors__button button"
+              >Подробнее</a
+            >
+          </div>
+          <div class="doctors__slide slider__item">
+            <div class="doctors__block doctors__two">
+              <div class="doctors__text">
+                <p class="doctors__name">Мигулев Николай Сергеевич</p>
+                <p class="doctors__subtitle">Стоматолог-ортопед</p>
+              </div>
             </div>
-        </section>
-        <section id="address" class="address">
-            <iframe class="adress__block-one" src="https://yandex.ru/map-widget/v1/-/CCUVnBG1-A" width="538" height="660" frameborder="0"></iframe>
-            <div class="adress__block-two">
-                <img class="adress__image" src="../images/adressImage.png" alt="Фото врача">
-                <ul class="adress__list">
-                    <li class="adress__item">
-                        <p class="adress__title">Адрес</p>
-                        <p class="adress__subtitle">Лежневская 159,<br>Иваново</p>
-                    </li>
-                    <li class="adress__item">
-                        <p class="adress__title">Время работы</p>
-                        <p class="adress__subtitle">ПН-ПТ: 8:30-19:00<br>СБ: 9:00-14:00<br>ВС: выходной</p>
-                    </li>
-                    <li class="adress__item">
-                        <p class="adress__title">Контакты</p>
-                        <p class="adress__subtitle">+7(4932)700-149</p>
-                    </li>
-                    <li class="adress__item-last">
-                        <a class="address__link" href="tel:+79158280104"><img class="adress__item-img button" src="../images/Telegaram.png" alt="Телеграмм"></a>
-                        <a class="address__link" href="tel:+79158280104"><img class="adress__item-img button" src="../images/Viber.png" alt="Вайбер"></a>
-                        <a class="address__link" href="tel:+79158280104"><img class="adress__item-img button" src="../images/Whatsapp.png" alt="Ватсап"></a>
-                        <a class="address__link" href="https://vk.com/dentalen" target="_blank"><img class="adress__item-img button" src="../images/adressVK.png" alt="ВК"></a>
-                        <a class="address__link" href="https://instagram.com/dentalen37?igshid=YmMyMTA2M2Y=" target="_blank"><img class="adress__item-img button" src="../images/adressInst.svg" alt="Инстаграмм"></a>
-                    </li>
-                </ul>
+            <a
+              href="./pages/doctors.html#Nikolay"
+              class="doctors__button button"
+              >Подробнее</a
+            >
+          </div>
+          <div class="doctors__slide slider__item">
+            <div class="doctors__block doctors__three">
+              <div class="doctors__text">
+                <p class="doctors__name">Шибаев Артем Олегович</p>
+                <p class="doctors__subtitle">Стоматолог-ортопед</p>
+              </div>
             </div>
-        </section>
+            <a href="./pages/doctors.html#Artem" class="doctors__button button"
+              >Подробнее</a
+            >
+          </div>
+          <div class="doctors__slide slider__item">
+            <div class="doctors__block doctors__for">
+              <div class="doctors__text">
+                <p class="doctors__name">Зонтова Екатерина Сергеевна</p>
+                <p class="doctors__subtitle">Врач-гигиенист</p>
+              </div>
+            </div>
+            <a href="./pages/doctors.html#Katya" class="doctors__button button"
+              >Подробнее</a
+            >
+          </div>
+          <div class="doctors__slide slider__item">
+            <div class="doctors__block doctors__five">
+              <div class="doctors__text">
+                <p class="doctors__name">Антипина Алена Алексеевна</p>
+                <p class="doctors__subtitle">Стоматолог общей практики</p>
+              </div>
+            </div>
+            <a href="./pages/doctors.html#Alena" class="doctors__button button"
+              >Подробнее</a
+            >
+          </div>
+          <div class="doctors__slide slider__item">
+            <div class="doctors__block doctors__six">
+              <div class="doctors__text">
+                <p class="doctors__name">Иванова Ольга Николаевна</p>
+                <p class="doctors__subtitle">Стоматолог-терапевт</p>
+              </div>
+            </div>
+            <a href="./pages/doctors.html#Olga" class="doctors__button button"
+              >Подробнее</a
+            >
+          </div>
+        </div>
+      </section>
+      <section class="photo slideshow">
+        <h2 class="none">None</h2>
+        <div class="photo__slide">
+          <button data-way="prev" class="photo__btn-left button"></button>
+          <img
+            class="photo__img slide"
+            src="../images/PhotoOne.png"
+            alt="Фото клиники"
+          />
+          <img
+            class="photo__img slide"
+            src="../images/PhotoTwo.jpg"
+            alt="Фото клиники"
+          />
+          <img
+            class="photo__img slide"
+            src="../images/PhotoThree.jpg"
+            alt="Фото клиники"
+          />
+          <img
+            class="photo__img slide"
+            src="../images/PhotoFour.jpg"
+            alt="Фото клиники"
+          />
+          <img
+            class="photo__img slide"
+            src="../images/PhotoFive.jpg"
+            alt="Фото клиники"
+          />
+          <button data-way="next" class="photo__btn-right button"></button>
+        </div>
+        <div class="photo__dots">
+          <div class="photo__dot"></div>
+          <div class="photo__dot"></div>
+          <div class="photo__dot"></div>
+          <div class="photo__dot"></div>
+          <div class="photo__dot"></div>
+        </div>
+      </section>
+      <section id="reviews" class="reviews slideshow">
+        <h2 class="none">None</h2>
+        <div class="reviews__slide slide">
+          <div class="reviews__block-one">
+            <img
+              class="reviews__avatar"
+              src="../images/DoctorI.png"
+              alt="Фото врача"
+            />
+            <p class="reviews__name">Кравченко Ирина Александровна</p>
+            <p class="reviews__subtitle">Стоматолог-терапевт</p>
+          </div>
+          <div class="reviews__block-two">
+            <div class="reviews__patient">
+              <p class="reviews__name">Надежда</p>
+              <p class="reviews__subtitle">пациент</p>
+            </div>
+            <p class="reviews__comment">
+              Спасибо Вам огромнейшее, вылечили мой зуб, теперь он как новый!
+              Если бы сразу пришла в клинику "ДентАлен" к Алёне, то не пришлось
+              бы мучаться от жутких болей. Обязательно буду рекомендовать родным
+              и близким! Теперь всей семьёй только сюда! Ещё раз огромное
+              спасибо!
+            </p>
+          </div>
+        </div>
+        <div class="reviews__slide slide">
+          <div class="reviews__block-one">
+            <img
+              class="reviews__avatar"
+              src="../images/DoctorA.png"
+              alt="Фото врача"
+            />
+            <p class="reviews__name">Антипина Алена Алексеевна</p>
+            <p class="reviews__subtitle">Стоматолог общей практики</p>
+          </div>
+          <div class="reviews__block-two">
+            <div class="reviews__patient">
+              <p class="reviews__name">Мария</p>
+              <p class="reviews__subtitle">пациент</p>
+            </div>
+            <p class="reviews__comment">
+              Спасибо Алене Алексеевне за отличную работу и внимательное
+              отношение! Несколько раз я делала гигиену и буду дальше посещать
+              ДентАлен. Алена Алексеевна еще и зуб мне спасла. Очень
+              качественная и доступная по цене стомотология!
+            </p>
+          </div>
+        </div>
+        <div class="reviews__slide slide">
+          <div class="reviews__block-one">
+            <img
+              class="reviews__avatar"
+              src="../images/DoctorO.png"
+              alt="Фото врача"
+            />
+            <p class="reviews__name">Иванова Ольга Николаевна</p>
+            <p class="reviews__subtitle">Стоматолог-терапевт</p>
+          </div>
+          <div class="reviews__block-two">
+            <div class="reviews__patient">
+              <p class="reviews__name">Екатерина</p>
+              <p class="reviews__subtitle">пациент</p>
+            </div>
+            <p class="reviews__comment">
+              Врач, Ольга Николаевна, очень хороший и квалифицированный
+              специалист, уже 20 лет хожу только к ней, еще со времен химзавода.
+              Не выдумывает лишние поблемы, чтобы болше денег взять, работает с
+              душей, переживает за результат. Скольким уже своим друзьям и
+              знакомым рекомендовала обращаться к ней и все довольны. Огромное
+              спасибо за честный труд. Поболше бы таких врачей.
+            </p>
+          </div>
+        </div>
+        <div class="reviews__element">
+          <button data-way="prev" class="reviews__btn-left button"></button>
+          <button data-way="next" class="reviews__btn-right button"></button>
+        </div>
+      </section>
+      <section id="address" class="address">
+        <h2 class="none">None</h2>
+        <iframe
+          class="adress__block-one"
+          src="https://yandex.ru/map-widget/v1/-/CCUVnBG1-A"
+          width="538"
+          height="660"
+        ></iframe>
+        <div class="adress__block-two">
+          <img
+            class="adress__image"
+            src="../images/adressImage.png"
+            alt="Фото врача"
+          />
+          <ul class="adress__list">
+            <li class="adress__item">
+              <p class="adress__title">Адрес</p>
+              <p class="adress__subtitle">Лежневская 159,<br />Иваново</p>
+            </li>
+            <li class="adress__item">
+              <p class="adress__title">Время работы</p>
+              <p class="adress__subtitle">
+                ПН-ПТ: 8:30-19:00<br />СБ: 9:00-14:00<br />ВС: выходной
+              </p>
+            </li>
+            <li class="adress__item">
+              <p class="adress__title">Контакты</p>
+              <p class="adress__subtitle">+7(4932)700-149</p>
+            </li>
+            <li class="adress__item-last">
+              <a class="address__link" href="tel:+79158280104"
+                ><img
+                  class="adress__item-img button"
+                  src="../images/Telegaram.png"
+                  alt="Телеграмм"
+              /></a>
+              <a class="address__link" href="tel:+79158280104"
+                ><img
+                  class="adress__item-img button"
+                  src="../images/Viber.png"
+                  alt="Вайбер"
+              /></a>
+              <a class="address__link" href="tel:+79158280104"
+                ><img
+                  class="adress__item-img button"
+                  src="../images/Whatsapp.png"
+                  alt="Ватсап"
+              /></a>
+              <a
+                class="address__link"
+                href="https://vk.com/dentalen"
+                target="_blank"
+                ><img
+                  class="adress__item-img button"
+                  src="../images/adressVK.png"
+                  alt="ВК"
+              /></a>
+              <a
+                class="address__link"
+                href="https://instagram.com/dentalen37?igshid=YmMyMTA2M2Y="
+                target="_blank"
+                ><img
+                  class="adress__item-img button"
+                  src="../images/adressInst.svg"
+                  alt="Инстаграмм"
+              /></a>
+            </li>
+          </ul>
+        </div>
+      </section>
     </main>
     <footer class="footer">
-        <ul class="footer__block">
-            <li class="footer__item">
-                <img class="logo" src="../images/Logo.svg" alt="Логотип">
-            </li>
-            <li class="footer__item">
-                <p class="footer__title">Адрес</p>
-                <p class="footer__subtitle">Лежневская 159,<br>Иваново</p>
-            </li>
-            <li class="footer__item">
-                <p class="footer__title">Время работы</p>
-                <p class="footer__subtitle">ПН-ПТ: 8:30-19:00<br>СБ: 9:00-14:00<br>ВС: выходной</p>
-            </li>
-            <li class="footer__item">
-                <p class="footer__title">Контакты</p>
-                <p class="footer__subtitle">+7(4932)700-149</p>
-            </li>
-        </ul>
-        <div class="footer__item-last">
-            <a class="footer__link" href="tel:+79158280104"><img class="footer__img button" src="../images/TelegaramWhite.png" alt="Телеграмм"></a>
-            <a class="footer__link" href="tel:+79158280104"><img class="footer__img button" src="../images/viberwhite.png" alt="Вайбер"></a>
-            <a class="footer__link" href="tel:+79158280104"><img class="footer__img button" src="../images/whatsappwhite.png" alt="Ватсап"></a>
-            <a class="footer__link" href="https://vk.com/dentalen" target="_blank"><img class="footer__img button" src="../images/FooterVK.png" alt="ВК"></a>
-            <a class="footer__link" href="https://instagram.com/dentalen37?igshid=YmMyMTA2M2Y=" target="_blank"><img class="footer__img button" src="../images/FooterInst.svg" alt="Инстаграмм"></a>
-        </div>
+      <ul class="footer__block">
+        <li class="footer__item">
+          <img class="logo" src="../images/Logo.svg" alt="Логотип" />
+        </li>
+        <li class="footer__item">
+          <p class="footer__title">Адрес</p>
+          <p class="footer__subtitle">Лежневская 159,<br />Иваново</p>
+        </li>
+        <li class="footer__item">
+          <p class="footer__title">Время работы</p>
+          <p class="footer__subtitle">
+            ПН-ПТ: 8:30-19:00<br />СБ: 9:00-14:00<br />ВС: выходной
+          </p>
+        </li>
+        <li class="footer__item">
+          <p class="footer__title">Контакты</p>
+          <p class="footer__subtitle">+7(4932)700-149</p>
+        </li>
+      </ul>
+      <div class="footer__item-last">
+        <a class="footer__link" href="tel:+79158280104"
+          ><img
+            class="footer__img button"
+            src="../images/TelegaramWhite.png"
+            alt="Телеграмм"
+        /></a>
+        <a class="footer__link" href="tel:+79158280104"
+          ><img
+            class="footer__img button"
+            src="../images/viberwhite.png"
+            alt="Вайбер"
+        /></a>
+        <a class="footer__link" href="tel:+79158280104"
+          ><img
+            class="footer__img button"
+            src="../images/whatsappwhite.png"
+            alt="Ватсап"
+        /></a>
+        <a class="footer__link" href="https://vk.com/dentalen" target="_blank"
+          ><img
+            class="footer__img button"
+            src="../images/FooterVK.png"
+            alt="ВК"
+        /></a>
+        <a
+          class="footer__link"
+          href="https://instagram.com/dentalen37?igshid=YmMyMTA2M2Y="
+          target="_blank"
+          ><img
+            class="footer__img button"
+            src="../images/FooterInst.svg"
+            alt="Инстаграмм"
+        /></a>
+      </div>
     </footer>
     <script src="https://code.jquery.com/jquery-3.6.1.min.js"></script>
     <script src="../script/slick.min.js"></script>
     <script src="../script/index.js"></script>
     <script src="../script/slider.js"></script>
-</body>
- 
+  </body>
 </html>
