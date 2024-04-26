@@ -1,9 +1,9 @@
 .photo__btn-left{
-    background: url(../../../images/DoctorsLeft.svg);
+    background: url(../../../images/DoctorsLeft.png);
     margin: 0 30px 0 0;
     background-size: cover;
     width: 59px;
-    height: 35px;
+    height: 59px;
     border: none;
     padding: 0;
 }
@@ -12,7 +12,7 @@
     .photo__btn-left{
         margin: 0 10px 0 0;
         width: 30px;
-        height: 16px;
+        height: 30px;
     }
 }
 
@@ -20,6 +20,6 @@
     .photo__btn-left{
         margin: 0 5px 0 0;
         width: 25px;
-        height: 14px;
+        height: 25px;
     }
 }

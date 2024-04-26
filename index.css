@@ -6,6 +6,7 @@
 @import url(./blocks/menu/menu.css);
 @import url(./blocks/menu/__block/menu__block.css);
 @import url(./blocks/menu/__links/menu__links.css);
+@import url(./blocks/menu/__title/menu__title.css);
 @import url(./blocks/menu/__item/menu__item.css);
 @import url(./blocks/menu/__link/menu__link.css);
 @import url(./blocks/menu/__link/_active/menu__link_active.css);
@@ -183,4 +184,8 @@
     body {
         scroll-behavior: smooth;
     }
+}
+
+.none{
+    display: none;
 }

@@ -11,7 +11,7 @@
     font-weight: 400;
     font-size: 16px;
     line-height: 150%;
-    color: #333333;
+    color: .333333;
 }
 
 .price__text:last-child{
@@ -19,20 +19,26 @@
     justify-content: flex-end;
 }
 
-#onerow{
-    width: 700px;
+.onerow{
+    width: 478px;
 }
 
-#threerows{
+.threerows{
     width: 100px;
 }
 
+.fourrows{
+    width: 122px;
+    justify-content: start;
+}
+
+
 @media screen and (max-width: 830px) {
-    #onerow{
+    .onerow{
         width: 500px;
     }
     
-    #threerows{
+    .threerows{
         width: 100px;
     }
 }
@@ -45,11 +51,11 @@
         line-height: 100%;
     }
 
-    #onerow{
+    .onerow{
         width: 250px;
     }
     
-    #threerows{
+    .threerows{
         width: 60px;
     }
 }

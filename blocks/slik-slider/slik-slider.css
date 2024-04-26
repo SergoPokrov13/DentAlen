@@ -10,33 +10,40 @@
     justify-content: center;
 }
 
-.slick-arrow{
-    position: absolute;
+.slick-prev{
+    background: url(../../../images/DoctorsLeft.png) no-repeat;
+    background-size: contain;
+    left: 44%;
     font-size: 0;
     width: 59px;
-    height: 35px;
+    height: 59px;
     border: none;
     padding: 0;
     bottom: 0;
     cursor: pointer;
+    position: absolute;
+    z-index: 10000;
+}
+.slick-next{
+    background: url(../../../images/DoctorsRight.png) no-repeat;
+    background-size: contain;
+    right: 44%;
+    font-size: 0;
+    width: 59px;
+    height: 59px;
+    border: none;
+    padding: 0;
+    bottom: 0;
+    cursor: pointer;
+    position: absolute;
 }
 
-.slick-arrow:hover{
+.slick-prev:hover{
     opacity: 0.6;
 }
-
-.slick-arrow.slick-prev{
-    background: url(../../../images/DoctorsLeft.svg) no-repeat;
-    background-size: cover;
-    left: 44%;
+.slick-next:hover{
+    opacity: 0.6;
 }
-
-.slick-arrow.slick-next{
-    background: url(../../../images/DoctorsRight.svg);
-    background-size: cover;
-    right: 44%;
-}
-
 .slider{
     position: relative;
     max-width: 1250px;

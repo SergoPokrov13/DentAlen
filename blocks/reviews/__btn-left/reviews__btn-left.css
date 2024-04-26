@@ -1,8 +1,8 @@
 .reviews__btn-left{
-    background: url(../../../images/DoctorsLeft.svg);
-    background-size: cover;
+    background: url(../../../images/DoctorsLeft.png);
+    background-size: contain;
     width: 59px;
-    height: 35px;
+    height: 59px;
     border: none;
     margin: 0 35px 0 0;
     padding: 0;
@@ -13,6 +13,6 @@
     .reviews__btn-left{
         margin: 0 25px 0 0;
         width: 30px;
-        height: 16px;
+        height: 30px;
     }
 }

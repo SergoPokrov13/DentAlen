@@ -3,9 +3,10 @@ $(document).ready(function(){
         $('.menu__burger,.menu__links,.span,.menu__entry,.menu__line').toggleClass('active');
         $('body').toggleClass('lock');
     });
-});
 
-$(document).ready(function(){
+    $('.slider').on('init reInit',function(e,slick){
+        
+      })
     $('.slider').slick({
         slidesToShow: 3,
         slidesToScroll: 1,
@@ -25,7 +26,8 @@ $(document).ready(function(){
             }
         ],
     });
-})
+});
+
 
 
 
